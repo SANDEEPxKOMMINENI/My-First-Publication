@@ -1,0 +1,2497 @@
+{
+  "timestamp": "20251102_180439",
+  "dataset": "data/comprehensive_qa_dataset.json",
+  "num_questions": 130,
+  "models": [
+    "groq"
+  ],
+  "temperature": 0.7,
+  "results_by_model": {
+    "groq": {
+      "summary": {
+        "model": "groq",
+        "total_questions": 130,
+        "answered": 130,
+        "errors": 0,
+        "correct": 105,
+        "accuracy": 0.8076923076923077,
+        "hallucinations_detected": 19,
+        "hallucination_rate": 0.14615384615384616,
+        "avg_latency": 2.1559823036193846,
+        "avg_tokens": 113.26923076923077
+      },
+      "detailed_results": [
+        {
+          "question_id": 0,
+          "question": "What is the capital of France?",
+          "ground_truth": "Paris",
+          "model_response": "The capital of France is Paris.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.2953042984008789
+        },
+        {
+          "question_id": 1,
+          "question": "What is the capital of Japan?",
+          "ground_truth": "Tokyo",
+          "model_response": "The capital of Japan is Tokyo.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.10805892944335938
+        },
+        {
+          "question_id": 2,
+          "question": "What is the capital of Germany?",
+          "ground_truth": "Berlin",
+          "model_response": "The capital of Germany is Berlin.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.10598969459533691
+        },
+        {
+          "question_id": 3,
+          "question": "What is the capital of Australia?",
+          "ground_truth": "Canberra",
+          "model_response": "The capital of Australia is Canberra.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.10893535614013672
+        },
+        {
+          "question_id": 4,
+          "question": "What is the capital of Canada?",
+          "ground_truth": "Ottawa",
+          "model_response": "The capital of Canada is Ottawa.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.30751943588256836
+        },
+        {
+          "question_id": 5,
+          "question": "Which ocean is the largest?",
+          "ground_truth": "Pacific Ocean",
+          "model_response": "The Pacific Ocean is the largest of the world's five oceans, covering an area of approximately 155.6 million square kilometers (60.1 million square miles) and accounting for about 46% of the Earth's total ocean area. It is also the deepest ocean, with a maximum depth of about 11,022 meters (36,198 feet) in the Mariana Trench.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 121,
+          "latency": 0.22067022323608398
+        },
+        {
+          "question_id": 6,
+          "question": "What is the longest river in the world?",
+          "ground_truth": "Nile River",
+          "model_response": "The longest river in the world is the Nile River, which is approximately 6,695 kilometers (4,160 miles) long. It flows through 11 countries in northeastern Africa, including Egypt, Sudan, and Ethiopia, before emptying into the Mediterranean Sea. The Nile is not only the longest river but also one of the most historically and culturally significant, supporting ancient civilizations and modern cities alike.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 125,
+          "latency": 0.2599680423736572
+        },
+        {
+          "question_id": 7,
+          "question": "How many continents are there?",
+          "ground_truth": "7",
+          "model_response": "There are 7 continents:\n\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia\n5. Europe\n6. North America\n7. South America\n\nNote: Some sources may group Europe and Asia together as a single continent, Eurasia, or combine North and South America as the Americas. However, the 7-continent model is the most widely accepted classification.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 121,
+          "latency": 2.2912709712982178
+        },
+        {
+          "question_id": 8,
+          "question": "What is the smallest country in the world?",
+          "ground_truth": "Vatican City",
+          "model_response": "The smallest country in the world is the Vatican City, with an area of approximately 0.44 km\u00b2 (0.17 sq mi). It is an independent city-state located within Rome, Italy, and is home to the Pope and the central government of the Catholic Church. The Vatican City has a population of around 800 people, making it not only the smallest country by land area but also one of the most populous in terms of population density.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 136,
+          "latency": 2.317964553833008
+        },
+        {
+          "question_id": 9,
+          "question": "Which is the tallest mountain in the world?",
+          "ground_truth": "Mount Everest",
+          "model_response": "The tallest mountain in the world is Mount Everest, located in the Himalayas on the border between Nepal and Tibet, China. It stands at an elevation of 8,848.86 meters (29,031.7 feet) above sea level.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 95,
+          "latency": 2.212980270385742
+        },
+        {
+          "question_id": 10,
+          "question": "In what year did World War II end?",
+          "ground_truth": "1945",
+          "model_response": "World War II ended in 1945. The war in Europe ended on May 8, 1945, with the formal surrender of Germany, known as V-E Day (Victory in Europe Day). The war in the Pacific ended on September 2, 1945, with the formal surrender of Japan, following the atomic bombings of Hiroshima and Nagasaki and the Soviet invasion of Manchuria. The formal surrender ceremony took place on board the USS Missouri in Tokyo Bay, Japan.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 145,
+          "latency": 2.3166041374206543
+        },
+        {
+          "question_id": 11,
+          "question": "Who was the first president of the United States?",
+          "ground_truth": "George Washington",
+          "model_response": "The first president of the United States was George Washington. He was inaugurated on April 30, 1789, and served two terms in office until March 4, 1797. Washington was a military leader during the American Revolutionary War and is often referred to as the \"Father of the Country\" for his role in the founding of the United States. He set important precedents for the office of the presidency and established many of the customs and traditions that continue to shape the role of the president today.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 149,
+          "latency": 2.3315508365631104
+        },
+        {
+          "question_id": 12,
+          "question": "In what year was the United Nations founded?",
+          "ground_truth": "1945",
+          "model_response": "The United Nations (UN) was founded in 1945. It was established on October 24, 1945, when 51 countries signed the UN Charter in San Francisco, California. The UN replaced the League of Nations, which was formed after World War I, and its primary goal is to promote peace, security, and cooperation among its member states.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 118,
+          "latency": 2.2898824214935303
+        },
+        {
+          "question_id": 13,
+          "question": "When did the Berlin Wall fall?",
+          "ground_truth": "1989",
+          "model_response": "The Berlin Wall fell on November 9, 1989. It marked a significant event in modern history, symbolizing the end of the division of Germany and the beginning of German reunification. The fall of the Berlin Wall also signified the decline of communism in Eastern Europe and paved the way for a more unified Europe.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 108,
+          "latency": 2.2933361530303955
+        },
+        {
+          "question_id": 14,
+          "question": "In what year did World War I begin?",
+          "ground_truth": "1914",
+          "model_response": "World War I began in 1914. It started on July 28, 1914, when Austria-Hungary declared war on Serbia, and eventually involved many other countries, including the major powers of Europe. The war lasted until November 11, 1918.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 101,
+          "latency": 2.307588577270508
+        },
+        {
+          "question_id": 15,
+          "question": "Who discovered America in 1492?",
+          "ground_truth": "Christopher Columbus",
+          "model_response": "Christopher Columbus is often credited with the discovery of America in 1492. However, it's essential to note that this is a subject of ongoing debate and controversy. Columbus's voyage did mark the beginning of European exploration and colonization of the Americas, but he was not the first person to reach the continent.\n\nIndigenous peoples had inhabited the Americas for thousands of years before Columbus's arrival. Additionally, the Vikings, led by Leif Erikson, are believed to have established a settlement in present-day Canada around 1000 AD, about 500 years before Columbus's voyage.\n\nColumbus's journey was sponsored by the Spanish monarchs, and he landed on the island of Guanahani in the Bahamas, which he named San Salvador. Over",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 193,
+          "latency": 2.4411001205444336
+        },
+        {
+          "question_id": 16,
+          "question": "When did the French Revolution begin?",
+          "ground_truth": "1789",
+          "model_response": "The French Revolution began on May 5, 1789, with the meeting of the Estates-General, which marked the start of the revolution. However, the event that is often considered the spark that ignited the French Revolution is the Storming of the Bastille, which took place on July 14, 1789. This event symbolized the end of the absolute monarchy and the beginning of a new era in French history.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 129,
+          "latency": 2.3311777114868164
+        },
+        {
+          "question_id": 17,
+          "question": "Who was the first man on the moon?",
+          "ground_truth": "Neil Armstrong",
+          "model_response": "The first man to set foot on the moon was Neil Armstrong. He stepped out of the lunar module Eagle and onto the moon's surface on July 20, 1969, during the Apollo 11 mission. Armstrong famously declared, \"That's one small step for man, one giant leap for mankind,\" as he became the first person to walk on the moon. He was followed by fellow astronaut Edwin \"Buzz\" Aldrin, who also walked on the moon during the mission.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 142,
+          "latency": 2.3000056743621826
+        },
+        {
+          "question_id": 18,
+          "question": "When did the Roman Empire fall?",
+          "ground_truth": "476 AD",
+          "model_response": "The Roman Empire is generally considered to have fallen in two stages:\n\n1. **Western Roman Empire:** The Western Roman Empire fell on September 4, 476 CE, when the Germanic king Odoacer deposed the last Roman Emperor, Romulus Augustus. This event marked the end of Roman rule in the Western Empire, which had been weakened by internal conflicts, external pressures, and economic decline.\n2. **Eastern Roman Empire (Byzantine Empire):** The Eastern Roman Empire, also known as the Byzantine Empire, continued to exist for another thousand years. It survived until May 29, 1453 CE, when the Ottoman Empire, led by Mehmed II, conquered Constantinople (modern-day Istanbul), the capital of",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.5,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 192,
+          "latency": 2.446743965148926
+        },
+        {
+          "question_id": 19,
+          "question": "In what year did India gain independence?",
+          "ground_truth": "1947",
+          "model_response": "India gained independence from British colonial rule on August 15, 1947.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 60,
+          "latency": 2.3628110885620117
+        },
+        {
+          "question_id": 20,
+          "question": "What is the speed of light in vacuum?",
+          "ground_truth": "299,792,458 meters per second",
+          "model_response": "The speed of light in a vacuum is approximately **299,792,458 meters per second** (m/s) or **186,282 miles per second**. This is a fundamental constant of the universe and is denoted by the symbol c.",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 95,
+          "latency": 2.2679364681243896
+        },
+        {
+          "question_id": 21,
+          "question": "What is the boiling point of water at sea level in Celsius?",
+          "ground_truth": "100",
+          "model_response": "The boiling point of water at sea level is 100 degrees Celsius (\u00b0C).",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 66,
+          "latency": 2.167759895324707
+        },
+        {
+          "question_id": 22,
+          "question": "What is Newton's first law of motion?",
+          "ground_truth": "An object in motion stays in motion unless acted upon by an external force",
+          "model_response": "Newton's first law of motion, also known as the Law of Inertia, states that an object at rest will remain at rest, and an object in motion will continue to move with a constant velocity, unless acted upon by an external force.\n\nIn other words, an object will maintain its state of motion unless a force is applied to it. This means that if an object is not moving, it will not start moving on its own, and if it is moving, it will not slow down or change direction unless a force is applied to it.\n\nThis law can be summarized as:\n\n* An object at rest stays at rest.\n* An object in motion stays in motion with the same speed and direction, unless acted upon by an external force.\n\nThis",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "conceptual",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 194,
+          "latency": 2.4520232677459717
+        },
+        {
+          "question_id": 23,
+          "question": "What is the chemical symbol for water?",
+          "ground_truth": "H2O",
+          "model_response": "The chemical symbol for water is H\u2082O.",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 1.0,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 54,
+          "latency": 2.1585638523101807
+        },
+        {
+          "question_id": 24,
+          "question": "What is the speed of sound in air at room temperature?",
+          "ground_truth": "343 meters per second",
+          "model_response": "The speed of sound in air at room temperature (approximately 20\u00b0C or 68\u00b0F) is approximately 343 meters per second (m/s) or 768 miles per hour (mph). However, this value can vary slightly depending on factors such as humidity, air pressure, and temperature.",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 107,
+          "latency": 2.2443318367004395
+        },
+        {
+          "question_id": 25,
+          "question": "What force keeps planets in orbit around the sun?",
+          "ground_truth": "Gravity",
+          "model_response": "The force that keeps planets in orbit around the sun is gravity. According to Sir Isaac Newton's law of universal gravitation, every object in the universe attracts every other object with a force proportional to the product of their masses and inversely proportional to the square of the distance between them.\n\nIn the case of planets orbiting the sun, the sun's massive size and gravitational pull create a strong attractive force that pulls the planets towards it. However, the planets are also moving at high speeds, which creates a centrifugal force that pushes them away from the sun. The balance between the gravitational force and the centrifugal force keeps the planets in a stable orbit around the sun.\n\nAdditionally, Albert Einstein's theory of general relativity provides a more detailed explanation of",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 195,
+          "latency": 2.426598310470581
+        },
+        {
+          "question_id": 26,
+          "question": "What is absolute zero in Celsius?",
+          "ground_truth": "-273.15",
+          "model_response": "Absolute zero is -273.15\u00b0C. It is defined as the theoretical temperature at which all matter would have zero entropy, or randomness, and is the lowest possible temperature.",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 1.0,
+            "type": "fabrication",
+            "method": "factual_verification"
+          },
+          "tokens_used": 78,
+          "latency": 2.217702627182007
+        },
+        {
+          "question_id": 27,
+          "question": "Who developed the theory of relativity?",
+          "ground_truth": "Albert Einstein",
+          "model_response": "The theory of relativity was developed by Albert Einstein, a renowned German-born physicist. Einstein's theory of relativity consists of two main components: special relativity and general relativity.\n\n1. **Special Relativity (1905)**: Einstein's special theory of relativity challenged the long-held notion of absolute time and space. He introduced the concept of spacetime, which is a four-dimensional fabric that combines space and time. Special relativity posits that the laws of physics are the same for all observers in uniform motion relative to one another, and that the speed of light is always constant, regardless of the observer's frame of reference.\n\n2. **General Relativity (1915)**: Einstein's general theory of relativity built upon special",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 193,
+          "latency": 2.432596206665039
+        },
+        {
+          "question_id": 28,
+          "question": "What is the charge of an electron?",
+          "ground_truth": "Negative",
+          "model_response": "The charge of an electron is -1.602 x 10^-19 coulombs, which is considered a negative charge.",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 70,
+          "latency": 2.2442359924316406
+        },
+        {
+          "question_id": 29,
+          "question": "What is the formula for kinetic energy?",
+          "ground_truth": "KE = 1/2 mv^2",
+          "model_response": "The formula for kinetic energy is:\n\nKE = (1/2)mv^2\n\nWhere:\nKE = kinetic energy\nm = mass of the object\nv = velocity of the object\n\nThis formula shows that kinetic energy is directly proportional to the mass of the object and the square of its velocity. In other words, the more massive an object is and the faster it moves, the more kinetic energy it has.",
+          "category": "science_physics",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.6666666666666667,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 128,
+          "latency": 2.282109022140503
+        },
+        {
+          "question_id": 30,
+          "question": "What is the chemical symbol for gold?",
+          "ground_truth": "Au",
+          "model_response": "The chemical symbol for gold is Au. It comes from the Latin word \"Aurum,\" which means gold.",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 66,
+          "latency": 0.24070262908935547
+        },
+        {
+          "question_id": 31,
+          "question": "What is the atomic number of carbon?",
+          "ground_truth": "6",
+          "model_response": "The atomic number of carbon is 6.",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 53,
+          "latency": 0.11677694320678711
+        },
+        {
+          "question_id": 32,
+          "question": "What is the most abundant gas in Earth's atmosphere?",
+          "ground_truth": "Nitrogen",
+          "model_response": "The most abundant gas in Earth's atmosphere is nitrogen (N2), making up approximately 78% of the atmosphere. Oxygen (O2) is the second most abundant, accounting for around 21%, with the remaining 1% consisting of other gases such as argon, carbon dioxide, and water vapor.",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 110,
+          "latency": 2.27065372467041
+        },
+        {
+          "question_id": 33,
+          "question": "What is the pH of pure water?",
+          "ground_truth": "7",
+          "model_response": "The pH of pure water is 7. This is because pure water is neutral, meaning it has an equal concentration of hydrogen ions (H+) and hydroxide ions (OH-). This balance results in a pH of 7, which is the middle point of the pH scale.",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 102,
+          "latency": 2.2689061164855957
+        },
+        {
+          "question_id": 34,
+          "question": "What is the chemical formula for table salt?",
+          "ground_truth": "NaCl",
+          "model_response": "The chemical formula for table salt is NaCl, which stands for sodium chloride. It consists of one sodium (Na) atom and one chlorine (Cl) atom.",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 78,
+          "latency": 2.1989729404449463
+        },
+        {
+          "question_id": 35,
+          "question": "What is the chemical symbol for iron?",
+          "ground_truth": "Fe",
+          "model_response": "The chemical symbol for iron is Fe. It comes from the Latin word \"ferrum,\" which means iron.",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 67,
+          "latency": 2.1827995777130127
+        },
+        {
+          "question_id": 36,
+          "question": "How many elements are in the periodic table?",
+          "ground_truth": "118",
+          "model_response": "As of my knowledge cutoff in 2023, there are 118 confirmed elements in the periodic table. These elements have been officially recognized and named by the International Union of Pure and Applied Chemistry (IUPAC). However, it's worth noting that new elements may be discovered or synthesized in the future, which could potentially expand the periodic table.",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 114,
+          "latency": 2.2803525924682617
+        },
+        {
+          "question_id": 37,
+          "question": "What is the lightest element?",
+          "ground_truth": "Hydrogen",
+          "model_response": "The lightest element is Hydrogen (H). It has an atomic number of 1 and an atomic mass of approximately 1.00794 u (unified atomic mass units). Hydrogen is the simplest and most abundant element in the universe, making up about 75% of its elemental mass.",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 104,
+          "latency": 2.24706768989563
+        },
+        {
+          "question_id": 38,
+          "question": "What is the chemical formula for carbon dioxide?",
+          "ground_truth": "CO2",
+          "model_response": "The chemical formula for carbon dioxide is CO2. This formula indicates that one molecule of carbon dioxide consists of one carbon atom (C) and two oxygen atoms (O).",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 79,
+          "latency": 2.1913087368011475
+        },
+        {
+          "question_id": 39,
+          "question": "What is the noble gas with atomic number 2?",
+          "ground_truth": "Helium",
+          "model_response": "The noble gas with atomic number 2 is Helium (He).",
+          "category": "science_chemistry",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 61,
+          "latency": 2.1632354259490967
+        },
+        {
+          "question_id": 40,
+          "question": "How many legs does a spider have?",
+          "ground_truth": "8",
+          "model_response": "A spider has 8 legs. Unlike insects, which have 6 legs, spiders are arachnids and have a distinct characteristic of having 8 legs.",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 77,
+          "latency": 2.231764078140259
+        },
+        {
+          "question_id": 41,
+          "question": "What is the largest organ in the human body?",
+          "ground_truth": "Skin",
+          "model_response": "The largest organ in the human body is the skin. It covers the entire surface of the body and performs multiple functions, such as protecting the body from external damage, regulating body temperature, and aiding in the production of vitamin D. The skin is made up of several layers and is essential for maintaining overall health and well-being. On average, the skin weighs around 6 pounds (2.7 kilograms) and covers an area of approximately 22 square feet (2 square meters) in adults.",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 145,
+          "latency": 2.342413902282715
+        },
+        {
+          "question_id": 42,
+          "question": "How many chromosomes do humans have?",
+          "ground_truth": "46",
+          "model_response": "Humans have 46 chromosomes, arranged into 23 pairs. This is the typical number of chromosomes found in the cells of most humans, and it's often referred to as the diploid number. The 23 pairs of chromosomes include:\n\n* 22 pairs of autosomes (non-sex chromosomes)\n* 1 pair of sex chromosomes (either XX for females or XY for males)\n\nIt's worth noting that some people may have variations in their chromosome number or structure due to genetic conditions, but 46 is the typical number for most humans.",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 151,
+          "latency": 2.388554573059082
+        },
+        {
+          "question_id": 43,
+          "question": "What is the powerhouse of the cell?",
+          "ground_truth": "Mitochondria",
+          "model_response": "The powerhouse of the cell is the mitochondria. Mitochondria are organelles found in the cells of most eukaryotes, including animals, plants, and fungi. They are responsible for generating most of the energy that the cell needs to function, in the form of a molecule called ATP (adenosine triphosphate).\n\nMitochondria are often referred to as the \"powerhouses\" of the cell because they produce the energy that the cell needs to perform its various functions, such as muscle contraction, nerve impulses, and cell division. They do this by converting the energy from the food that the cell consumes (such as glucose) into ATP, which is then used to power the cell's activities.\n\nIn addition to producing energy,",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 193,
+          "latency": 2.432278871536255
+        },
+        {
+          "question_id": 44,
+          "question": "What is the process by which plants make food?",
+          "ground_truth": "Photosynthesis",
+          "model_response": "The process by which plants make food is called photosynthesis. It's a complex process that involves the conversion of light energy from the sun, carbon dioxide from the air, and water from the soil into glucose (a type of sugar) and oxygen.\n\nHere's a simplified overview of the photosynthesis process:\n\n1. **Light absorption**: Plants absorb light energy from the sun through their leaves, which contain specialized pigments such as chlorophyll.\n2. **Water absorption**: Plants absorb water from the soil through their roots.\n3. **Carbon dioxide absorption**: Plants absorb carbon dioxide from the air through tiny openings on their leaves called stomata.\n4. **Conversion of light energy**: The light energy absorbed by the plant is converted into chemical energy,",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 195,
+          "latency": 2.396418809890747
+        },
+        {
+          "question_id": 45,
+          "question": "What is DNA an abbreviation for?",
+          "ground_truth": "Deoxyribonucleic acid",
+          "model_response": "DNA is an abbreviation for Deoxyribonucleic Acid.",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 56,
+          "latency": 2.1707043647766113
+        },
+        {
+          "question_id": 46,
+          "question": "How many bones are in the adult human body?",
+          "ground_truth": "206",
+          "model_response": "The adult human body has 206 bones. This number can vary slightly from person to person, as some individuals may have extra or missing bones due to various genetic or developmental conditions. However, 206 is the typical number of bones found in a healthy adult human skeleton.",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 100,
+          "latency": 2.227206230163574
+        },
+        {
+          "question_id": 47,
+          "question": "What is the largest mammal on Earth?",
+          "ground_truth": "Blue whale",
+          "model_response": "The largest mammal on Earth is the blue whale (Balaenoptera musculus). On average, an adult blue whale can grow up to 82 feet (25 meters) in length and weigh around 150-170 tons (136,000-152,000 kilograms). However, the largest blue whale ever recorded was a female that was found in 1947 off the coast of Iceland, which measured around 108 feet (33 meters) in length and weighed an estimated 210 tons (182,000 kilograms).",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 150,
+          "latency": 2.2916836738586426
+        },
+        {
+          "question_id": 48,
+          "question": "What type of blood cell carries oxygen?",
+          "ground_truth": "Red blood cells",
+          "model_response": "Red blood cells (RBCs), also known as erythrocytes, are the type of blood cells that carry oxygen. They contain a protein called hemoglobin, which binds to oxygen in the lungs and transports it to the body's tissues.",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 94,
+          "latency": 2.2544732093811035
+        },
+        {
+          "question_id": 49,
+          "question": "What is the average human body temperature in Celsius?",
+          "ground_truth": "37",
+          "model_response": "The average human body temperature is around 37\u00b0C (98.6\u00b0F). However, it's worth noting that normal body temperature can vary slightly from person to person, and can range from approximately 36.5\u00b0C to 37.5\u00b0C (97.7\u00b0F to 99.5\u00b0F).",
+          "category": "science_biology",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 1.0,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 108,
+          "latency": 2.2639405727386475
+        },
+        {
+          "question_id": 50,
+          "question": "What is 15 \u00d7 7?",
+          "ground_truth": "105",
+          "model_response": "15 \u00d7 7 = 105.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 52,
+          "latency": 2.1476290225982666
+        },
+        {
+          "question_id": 51,
+          "question": "What is the smallest prime number?",
+          "ground_truth": "2",
+          "model_response": "The smallest prime number is 2. It is the only even prime number and the smallest number that is divisible only by 1 and itself.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 72,
+          "latency": 2.198899984359741
+        },
+        {
+          "question_id": 52,
+          "question": "What is 144 \u00f7 12?",
+          "ground_truth": "12",
+          "model_response": "144 \u00f7 12 = 12.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 54,
+          "latency": 2.164447784423828
+        },
+        {
+          "question_id": 53,
+          "question": "What is the square root of 64?",
+          "ground_truth": "8",
+          "model_response": "The square root of 64 is 8.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 55,
+          "latency": 2.154935359954834
+        },
+        {
+          "question_id": 54,
+          "question": "What is 25% of 200?",
+          "ground_truth": "50",
+          "model_response": "To find 25% of 200, you multiply 200 by 0.25. \n\n200 * 0.25 = 50\n\nSo, 25% of 200 is 50.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 87,
+          "latency": 2.1979730129241943
+        },
+        {
+          "question_id": 55,
+          "question": "What is the value of pi to 2 decimal places?",
+          "ground_truth": "3.14",
+          "model_response": "The value of pi to 2 decimal places is 3.14.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 63,
+          "latency": 2.1520769596099854
+        },
+        {
+          "question_id": 56,
+          "question": "What is 8\u00b2?",
+          "ground_truth": "64",
+          "model_response": "8\u00b2 (8 squared) is equal to 8 * 8 = 64.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 60,
+          "latency": 2.178623914718628
+        },
+        {
+          "question_id": 57,
+          "question": "What is the sum of angles in a triangle?",
+          "ground_truth": "180 degrees",
+          "model_response": "The sum of angles in a triangle is always 180 degrees. This is a fundamental property of triangles and is known as the Angle Sum Property. It doesn't matter what type of triangle you have (acute, right, obtuse, equilateral, isosceles, scalene, etc.), the sum of its interior angles will always be 180 degrees.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 119,
+          "latency": 2.481926441192627
+        },
+        {
+          "question_id": 58,
+          "question": "What is 1000 - 234?",
+          "ground_truth": "766",
+          "model_response": "1000 - 234 = 766.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 54,
+          "latency": 2.16383695602417
+        },
+        {
+          "question_id": 59,
+          "question": "What is the next prime number after 7?",
+          "ground_truth": "11",
+          "model_response": "The next prime number after 7 is 11.",
+          "category": "mathematics_basic",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 57,
+          "latency": 2.1612370014190674
+        },
+        {
+          "question_id": 60,
+          "question": "What is the derivative of x\u00b2?",
+          "ground_truth": "2x",
+          "model_response": "The derivative of x\u00b2 is 2x. This is calculated using the power rule of differentiation, which states that if f(x) = x^n, then f'(x) = nx^(n-1). In this case, n = 2, so the derivative of x\u00b2 is 2x^(2-1) = 2x.",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 116,
+          "latency": 2.2414891719818115
+        },
+        {
+          "question_id": 61,
+          "question": "What is the integral of 1/x?",
+          "ground_truth": "ln(x) + C",
+          "model_response": "The integral of 1/x is the natural logarithm of x, denoted as ln(x) or log(e)(x). \n\n\u222b(1/x) dx = ln|x| + C\n\nwhere C is the constant of integration. The absolute value |x| is used to ensure the logarithm is defined for both positive and negative values of x.",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 118,
+          "latency": 2.3111813068389893
+        },
+        {
+          "question_id": 62,
+          "question": "What is e to the power of 0?",
+          "ground_truth": "1",
+          "model_response": "A simple but great math question!\n\ne to the power of 0, denoted as e^0, is equal to 1.\n\nIn mathematics, any non-zero number raised to the power of 0 is defined to be 1. This is a fundamental property of exponentiation, and it applies to e as well.\n\nSo, e^0 = 1.",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 121,
+          "latency": 2.341487407684326
+        },
+        {
+          "question_id": 63,
+          "question": "What is the Pythagorean theorem?",
+          "ground_truth": "a\u00b2 + b\u00b2 = c\u00b2",
+          "model_response": "The Pythagorean theorem is a mathematical concept that describes the relationship between the lengths of the sides of a right triangle. It states that:\n\n**a\u00b2 + b\u00b2 = c\u00b2**\n\nwhere:\n\n* **a** and **b** are the lengths of the two shorter sides (legs) of the right triangle\n* **c** is the length of the longest side (hypotenuse) of the right triangle\n\nIn simpler terms, the theorem says that if you square the lengths of the two shorter sides of a right triangle and add them together, the result is equal to the square of the length of the longest side.\n\nFor example, if you have a right triangle with one leg that is 3 inches long and the other leg that",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 193,
+          "latency": 2.4036378860473633
+        },
+        {
+          "question_id": 64,
+          "question": "What is the value of e to 2 decimal places?",
+          "ground_truth": "2.71",
+          "model_response": "The value of e (Euler's number) to 2 decimal places is 2.72.",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 1.0,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 69,
+          "latency": 2.1774611473083496
+        },
+        {
+          "question_id": 65,
+          "question": "What is log\u2081\u2080(100)?",
+          "ground_truth": "2",
+          "model_response": "To find log\u2081\u2080(100), we need to determine the power to which 10 must be raised to equal 100.\n\nSince 10\u00b2 = 100, we can conclude that:\n\nlog\u2081\u2080(100) = 2\n\nThis is because 10 raised to the power of 2 equals 100.",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 109,
+          "latency": 2.2592124938964844
+        },
+        {
+          "question_id": 66,
+          "question": "What is the slope of the line y = 3x + 5?",
+          "ground_truth": "3",
+          "model_response": "The slope of the line y = 3x + 5 is 3.\n\nIn the standard form of a linear equation, y = mx + b, 'm' represents the slope of the line. In this case, m = 3. The slope tells you how steep the line is and in which direction it slopes. A positive slope, like 3, means the line slopes upward from left to right.",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 137,
+          "latency": 2.3080930709838867
+        },
+        {
+          "question_id": 67,
+          "question": "What is sin(90\u00b0)?",
+          "ground_truth": "1",
+          "model_response": "The sine of 90\u00b0 is 1.",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 53,
+          "latency": 2.161036729812622
+        },
+        {
+          "question_id": 68,
+          "question": "What is the factorial of 5?",
+          "ground_truth": "120",
+          "model_response": "The factorial of 5 (denoted as 5!) is the product of all positive integers up to 5. \n\n5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "calculation",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 89,
+          "latency": 2.2063117027282715
+        },
+        {
+          "question_id": 69,
+          "question": "What is the quadratic formula?",
+          "ground_truth": "x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / 2a",
+          "model_response": "The quadratic formula is a mathematical formula that provides the solutions to a quadratic equation of the form ax^2 + bx + c = 0, where a, b, and c are constants. The quadratic formula is:\n\nx = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a\n\nThis formula gives two possible solutions for x, corresponding to the two roots of the quadratic equation. The \u00b1 symbol indicates that there are two possible values for x, one using the plus sign and one using the minus sign.\n\nThe quadratic formula can be used to solve quadratic equations in a wide range of fields, including algebra, geometry, physics, engineering, and economics. It is a fundamental tool in mathematics and is widely used to model",
+          "category": "mathematics_advanced",
+          "difficulty": "hard",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.16666666666666663,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 191,
+          "latency": 2.4475810527801514
+        },
+        {
+          "question_id": 70,
+          "question": "Who wrote 'Romeo and Juliet'?",
+          "ground_truth": "William Shakespeare",
+          "model_response": "\"Romeo and Juliet\" was written by the famous English playwright William Shakespeare. It is one of his most well-known and beloved tragedies, telling the story of two young lovers from feuding families in Verona, Italy. The play is believed to have been written around 1595-1596 and has since become a classic of world literature.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 116,
+          "latency": 2.285398483276367
+        },
+        {
+          "question_id": 71,
+          "question": "Who wrote '1984'?",
+          "ground_truth": "George Orwell",
+          "model_response": "The dystopian novel '1984' was written by George Orwell.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 56,
+          "latency": 2.1745479106903076
+        },
+        {
+          "question_id": 72,
+          "question": "Who wrote 'Pride and Prejudice'?",
+          "ground_truth": "Jane Austen",
+          "model_response": "The novel 'Pride and Prejudice' was written by Jane Austen. It was first published in 1813 and has since become one of her most famous and enduring works.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 84,
+          "latency": 2.209043025970459
+        },
+        {
+          "question_id": 73,
+          "question": "Who wrote 'The Great Gatsby'?",
+          "ground_truth": "F. Scott Fitzgerald",
+          "model_response": "The novel 'The Great Gatsby' was written by F. Scott Fitzgerald. It was published in 1925 and is considered one of the greatest American novels of the 20th century.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 83,
+          "latency": 2.20125675201416
+        },
+        {
+          "question_id": 74,
+          "question": "Who wrote 'To Kill a Mockingbird'?",
+          "ground_truth": "Harper Lee",
+          "model_response": "'To Kill a Mockingbird' was written by Harper Lee. The novel was published in 1960 and has since become a classic of modern American literature, winning the Pulitzer Prize in 1961.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 88,
+          "latency": 2.2224154472351074
+        },
+        {
+          "question_id": 75,
+          "question": "Who wrote 'Moby Dick'?",
+          "ground_truth": "Herman Melville",
+          "model_response": "The novel 'Moby Dick' was written by American author Herman Melville. It was first published in 1851.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 68,
+          "latency": 2.1798818111419678
+        },
+        {
+          "question_id": 76,
+          "question": "Who wrote 'The Odyssey'?",
+          "ground_truth": "Homer",
+          "model_response": "The authorship of 'The Odyssey' is attributed to the ancient Greek poet Homer. However, it's worth noting that the exact identity of Homer is still a topic of debate among scholars, and some question whether he actually existed or if the name \"Homer\" refers to a collective group of poets who contributed to the epic poems attributed to him.\n\nTraditionally, Homer is believed to have lived in the 8th or 7th century BC and is credited with writing not only 'The Odyssey' but also 'The Iliad', another epic poem that tells the story of the Trojan War. Despite the uncertainty surrounding his identity, Homer's works have had a profound impact on Western literature and continue to be widely studied and admired today.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 191,
+          "latency": 2.5052859783172607
+        },
+        {
+          "question_id": 77,
+          "question": "Who wrote 'War and Peace'?",
+          "ground_truth": "Leo Tolstoy",
+          "model_response": "\"War and Peace\" was written by the Russian author Leo Tolstoy. The novel, published in 1865-1869, is considered one of Tolstoy's most famous works and a classic of world literature. It tells the story of several aristocratic Russian families during the Napoleonic Wars, exploring themes of love, family, loyalty, and power.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 118,
+          "latency": 2.3394923210144043
+        },
+        {
+          "question_id": 78,
+          "question": "Who wrote 'The Catcher in the Rye'?",
+          "ground_truth": "J.D. Salinger",
+          "model_response": "The classic coming-of-age novel 'The Catcher in the Rye' was written by American author J.D. Salinger. The book, which tells the story of Holden Caulfield's struggles with adolescence and alienation, was first published in 1951 and has since become a timeless and iconic work of American literature.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 112,
+          "latency": 2.299868106842041
+        },
+        {
+          "question_id": 79,
+          "question": "Who wrote 'Harry Potter'?",
+          "ground_truth": "J.K. Rowling",
+          "model_response": "The 'Harry Potter' series was written by British author J.K. Rowling.",
+          "category": "arts_literature",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 58,
+          "latency": 2.16774845123291
+        },
+        {
+          "question_id": 80,
+          "question": "Who painted the Mona Lisa?",
+          "ground_truth": "Leonardo da Vinci",
+          "model_response": "The Mona Lisa was painted by the Italian artist Leonardo da Vinci. He created the famous portrait in the early 16th century, specifically between 1503 and 1506. The painting is widely considered one of the greatest works of the Renaissance and is arguably the most famous painting in the world. It is now on permanent display at the Louvre Museum in Paris, France.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 118,
+          "latency": 2.287318706512451
+        },
+        {
+          "question_id": 81,
+          "question": "Who painted 'The Starry Night'?",
+          "ground_truth": "Vincent van Gogh",
+          "model_response": "The painting \"The Starry Night\" was created by the Dutch post-impressionist artist Vincent van Gogh in 1889. It is one of his most famous works and is widely considered an iconic representation of his unique style and artistic vision. The painting depicts the view from the east-facing window of his asylum room at Saint-R\u00e9my-de-Provence, just before sunrise, with the stars of the night sky still visible in the sky.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 135,
+          "latency": 2.2883684635162354
+        },
+        {
+          "question_id": 82,
+          "question": "Who painted the Sistine Chapel ceiling?",
+          "ground_truth": "Michelangelo",
+          "model_response": "The Sistine Chapel ceiling was painted by the renowned Italian artist Michelangelo Buonarroti, commonly known as Michelangelo. He worked on the project from 1508 to 1512, and it is considered one of the greatest artistic achievements of all time. The ceiling features nine scenes from the Book of Genesis, including the famous \"Creation of Adam\" and \"The Great Flood.\" Michelangelo's work on the Sistine Chapel ceiling is a masterpiece of Renaissance art and continues to inspire and awe people to this day.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 149,
+          "latency": 2.3384273052215576
+        },
+        {
+          "question_id": 83,
+          "question": "Who painted 'The Persistence of Memory' with melting clocks?",
+          "ground_truth": "Salvador Dal\u00ed",
+          "model_response": "The painting \"The Persistence of Memory\" with melting clocks is a famous work by the Spanish surrealist artist Salvador Dal\u00ed. It was created in 1931 and is one of Dal\u00ed's most iconic and enduring images. The painting features dream-like, distorted clocks and other objects in a surreal landscape, exploring the relationship between time, reality, and the subconscious.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 121,
+          "latency": 2.5619490146636963
+        },
+        {
+          "question_id": 84,
+          "question": "Who painted 'Guernica'?",
+          "ground_truth": "Pablo Picasso",
+          "model_response": "The painting 'Guernica' was created by the Spanish artist Pablo Picasso in 1937. It is a powerful anti-war artwork responding to the bombing of the town of Guernica during the Spanish Civil War.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 87,
+          "latency": 2.2203354835510254
+        },
+        {
+          "question_id": 85,
+          "question": "Who painted 'The Scream'?",
+          "ground_truth": "Edvard Munch",
+          "model_response": "The painting 'The Scream' was created by the Norwegian artist Edvard Munch. He painted four versions of 'The Scream' between 1893 and 1910. The most famous versions are from 1893, which was painted using oil, tempera, and pastel on cardboard, and 1910, which was painted using tempera on board. 'The Scream' is considered one of the most iconic and influential works of modern art, symbolizing anxiety and existential dread.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 145,
+          "latency": 2.4291951656341553
+        },
+        {
+          "question_id": 86,
+          "question": "Who painted 'Girl with a Pearl Earring'?",
+          "ground_truth": "Johannes Vermeer",
+          "model_response": "The painting 'Girl with a Pearl Earring' is attributed to the Dutch master Johannes Vermeer, who created it around 1665. The painting is considered one of Vermeer's most famous works and is known for its captivating and enigmatic portrayal of a young girl with a large pearl earring. It is now housed at the Mauritshuis in The Hague, Netherlands.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 122,
+          "latency": 2.2777655124664307
+        },
+        {
+          "question_id": 87,
+          "question": "Who sculpted 'David'?",
+          "ground_truth": "Michelangelo",
+          "model_response": "The famous sculpture \"David\" was created by the Italian artist Michelangelo Buonarroti, commonly known as Michelangelo. He sculpted the statue between 1501 and 1504. It is considered one of the greatest works of Renaissance art and is now housed in the Galleria dell'Accademia in Florence, Italy.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 111,
+          "latency": 2.2711901664733887
+        },
+        {
+          "question_id": 88,
+          "question": "Who painted 'The Last Supper'?",
+          "ground_truth": "Leonardo da Vinci",
+          "model_response": "The famous painting 'The Last Supper' was created by the Italian artist Leonardo da Vinci. He painted it in the late 15th century, specifically between 1495 and 1498, for the refectory of the Convent of Santa Maria delle Grazie in Milan, Italy. The painting depicts the last meal Jesus shared with his twelve apostles before he was betrayed, as described in the New Testament. It is considered one of the most iconic and influential works of art in history.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 145,
+          "latency": 2.3091070652008057
+        },
+        {
+          "question_id": 89,
+          "question": "Who painted 'Water Lilies' series?",
+          "ground_truth": "Claude Monet",
+          "model_response": "The \"Water Lilies\" series was painted by the famous French impressionist artist Claude Monet. He created over 250 paintings of his famous garden pond at Giverny, which was full of water lilies, between the late 1890s and the 1920s. These paintings are considered some of the most iconic and influential works of the Impressionist movement.",
+          "category": "arts_visual",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 123,
+          "latency": 2.3195583820343018
+        },
+        {
+          "question_id": 90,
+          "question": "Who founded Apple Inc.?",
+          "ground_truth": "Steve Jobs",
+          "model_response": "Apple Inc. was founded on April 1, 1976, by three individuals: \n\n1. Steve Jobs\n2. Steve Wozniak\n3. Ronald Wayne",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 77,
+          "latency": 2.1917505264282227
+        },
+        {
+          "question_id": 91,
+          "question": "What does CPU stand for?",
+          "ground_truth": "Central Processing Unit",
+          "model_response": "CPU stands for Central Processing Unit. It's the primary component of a computer that executes instructions and performs calculations, essentially acting as the \"brain\" of the computer.",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 75,
+          "latency": 2.2128143310546875
+        },
+        {
+          "question_id": 92,
+          "question": "What does HTTP stand for?",
+          "ground_truth": "HyperText Transfer Protocol",
+          "model_response": "HTTP stands for HyperText Transfer Protocol. It's a protocol used for transferring data over the internet, particularly for communicating between web servers and web browsers.",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 72,
+          "latency": 2.2159886360168457
+        },
+        {
+          "question_id": 93,
+          "question": "Who invented the World Wide Web?",
+          "ground_truth": "Tim Berners-Lee",
+          "model_response": "The World Wide Web (WWW) was invented by Sir Tim Berners-Lee, a British computer scientist. He is credited with creating the fundamental technologies that make the web work, including HTTP (Hypertext Transfer Protocol), URL (Uniform Resource Locator), and HTML (Hypertext Markup Language).\n\nIn 1989, while working at CERN, the European particle physics laboratory in Switzerland, Berners-Lee proposed an information management system that would allow researchers to share and link documents using hypertext. He built the first web browser and web server, and wrote the first web page, which was launched on August 6, 1991.\n\nBerners-Lee's invention of the World Wide Web revolutionized the way people access and share information",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 192,
+          "latency": 2.4139270782470703
+        },
+        {
+          "question_id": 94,
+          "question": "What does AI stand for?",
+          "ground_truth": "Artificial Intelligence",
+          "model_response": "AI stands for Artificial Intelligence.",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 48,
+          "latency": 2.1433777809143066
+        },
+        {
+          "question_id": 95,
+          "question": "What does USB stand for?",
+          "ground_truth": "Universal Serial Bus",
+          "model_response": "USB stands for Universal Serial Bus.",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 49,
+          "latency": 2.1468000411987305
+        },
+        {
+          "question_id": 96,
+          "question": "Who founded Microsoft?",
+          "ground_truth": "Bill Gates",
+          "model_response": "Microsoft was founded by Bill Gates and Paul Allen on April 4, 1975.",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 58,
+          "latency": 2.1728763580322266
+        },
+        {
+          "question_id": 97,
+          "question": "What does RAM stand for?",
+          "ground_truth": "Random Access Memory",
+          "model_response": "RAM stands for Random Access Memory. It's a type of computer memory that temporarily stores data and applications while a computer is running, allowing for faster access and processing.",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 75,
+          "latency": 2.2071914672851562
+        },
+        {
+          "question_id": 98,
+          "question": "In what year was the first iPhone released?",
+          "ground_truth": "2007",
+          "model_response": "The first iPhone was released in 2007. It was announced by Steve Jobs, the co-founder and CEO of Apple, at the Macworld conference in San Francisco on January 9, 2007. The iPhone was available for purchase by the general public on June 29, 2007.",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 106,
+          "latency": 2.2552871704101562
+        },
+        {
+          "question_id": 99,
+          "question": "What does HTML stand for?",
+          "ground_truth": "HyperText Markup Language",
+          "model_response": "HTML stands for HyperText Markup Language.",
+          "category": "technology",
+          "difficulty": "medium",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 2.143664836883545
+        },
+        {
+          "question_id": 100,
+          "question": "How many R's are in the word 'strawberry'?",
+          "ground_truth": "3",
+          "model_response": "There are 2 R's and also 2 other R's in 'strawberry', so in total, there are 2 sets of double R's, which means the word 'strawberry' contains a total of 2 R's.",
+          "category": "hallucination_prone_counting",
+          "difficulty": "hard",
+          "type": "counting",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 1.0,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 100,
+          "latency": 2.3117852210998535
+        },
+        {
+          "question_id": 101,
+          "question": "How many letters are in the word 'Mississippi'?",
+          "ground_truth": "11",
+          "model_response": "The word 'Mississippi' contains 11 letters: M-I-S-S-I-S-S-I-P-P-I.",
+          "category": "hallucination_prone_counting",
+          "difficulty": "hard",
+          "type": "counting",
+          "hallucination_trigger": true,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 70,
+          "latency": 2.1707000732421875
+        },
+        {
+          "question_id": 102,
+          "question": "How many E's are in the word 'Tennessee'?",
+          "ground_truth": "3",
+          "model_response": "There are 3 E's in the word 'Tennessee'.",
+          "category": "hallucination_prone_counting",
+          "difficulty": "hard",
+          "type": "counting",
+          "hallucination_trigger": true,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 61,
+          "latency": 2.166412115097046
+        },
+        {
+          "question_id": 103,
+          "question": "How many vowels are in 'beautiful'?",
+          "ground_truth": "5",
+          "model_response": "The word \"beautiful\" has 4 vowels: \"e\", \"a\", \"u\", and \"i\".",
+          "category": "hallucination_prone_counting",
+          "difficulty": "hard",
+          "type": "counting",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 1.0,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 67,
+          "latency": 2.1992392539978027
+        },
+        {
+          "question_id": 104,
+          "question": "How many S's are in 'assessment'?",
+          "ground_truth": "4",
+          "model_response": "There are 2 S's in the word 'assessment'.",
+          "category": "hallucination_prone_counting",
+          "difficulty": "hard",
+          "type": "counting",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 1.0,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 57,
+          "latency": 2.154343366622925
+        },
+        {
+          "question_id": 105,
+          "question": "Who won the FIFA World Cup in 2022?",
+          "ground_truth": "Argentina",
+          "model_response": "The winner of the 2022 FIFA World Cup was Argentina. They defeated France 4-2 in a penalty shootout after the match ended 3-3 after extra time in the final on December 18, 2022, at the Lusail Iconic Stadium in Qatar. This was Argentina's third World Cup title, with their previous wins coming in 1978 and 1986.",
+          "category": "hallucination_prone_recent",
+          "difficulty": "hard",
+          "type": "recent_event",
+          "hallucination_trigger": true,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 128,
+          "latency": 2.2840232849121094
+        },
+        {
+          "question_id": 106,
+          "question": "Who is the current President of the United States as of 2024?",
+          "ground_truth": "Joe Biden",
+          "model_response": "As of my knowledge cutoff in 2023, Joe Biden is the President of the United States. However, please note that my information may not be up to date, and I recommend checking with a reliable news source for the most current information. The 2024 presidential election has not yet occurred, and the outcome may affect the presidency.",
+          "category": "hallucination_prone_recent",
+          "difficulty": "hard",
+          "type": "recent_event",
+          "hallucination_trigger": true,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 119,
+          "latency": 2.4944417476654053
+        },
+        {
+          "question_id": 107,
+          "question": "What year did COVID-19 pandemic begin?",
+          "ground_truth": "2019",
+          "model_response": "The COVID-19 pandemic is believed to have begun in late 2019. The first reported cases of pneumonia-like illnesses occurred in Wuhan, China in December 2019. The World Health Organization (WHO) was informed of a cluster of cases on December 31, 2019. The COVID-19 pandemic was officially declared a Public Health Emergency of International Concern (PHEIC) by the WHO on January 30, 2020.",
+          "category": "hallucination_prone_recent",
+          "difficulty": "hard",
+          "type": "recent_event",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 136,
+          "latency": 2.300851583480835
+        },
+        {
+          "question_id": 108,
+          "question": "When was ChatGPT first released?",
+          "ground_truth": "November 2022",
+          "model_response": "ChatGPT was first released to the public in November 2022.",
+          "category": "hallucination_prone_recent",
+          "difficulty": "hard",
+          "type": "recent_event",
+          "hallucination_trigger": true,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 59,
+          "latency": 2.1806182861328125
+        },
+        {
+          "question_id": 109,
+          "question": "Who won the 2023 Nobel Prize in Physics?",
+          "ground_truth": "Pierre Agostini, Ferenc Krausz, and Anne L'Huillier",
+          "model_response": "The 2023 Nobel Prize in Physics was awarded to Pierre Agostini, Ferenc Krausz, and Anne L'Huillier for their discoveries concerning the dynamics of electrons in atoms and molecules.",
+          "category": "hallucination_prone_recent",
+          "difficulty": "hard",
+          "type": "recent_event",
+          "hallucination_trigger": true,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 88,
+          "latency": 2.249908447265625
+        },
+        {
+          "question_id": 110,
+          "question": "Is Pluto a planet?",
+          "ground_truth": "No, it is classified as a dwarf planet",
+          "model_response": "The question of whether Pluto is a planet is a bit complicated. Historically, Pluto was considered to be the ninth planet in our solar system, discovered in 1930. However, in 2006, the International Astronomical Union (IAU) redefined the term \"planet\" and reclassified Pluto as a dwarf planet.\n\nAccording to the IAU definition, a planet is a celestial body that:\n\n1. Is in orbit around the Sun.\n2. Has sufficient mass to assume a hydrostatic equilibrium shape (i.e., it's nearly round in shape).\n3. Has cleared the neighborhood around its orbit.\n\nPluto doesn't meet the third criterion, as its orbit overlaps with other objects in the Kuiper Belt, a region of",
+          "category": "hallucination_prone_ambiguous",
+          "difficulty": "hard",
+          "type": "ambiguous",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.375,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 190,
+          "latency": 2.3692140579223633
+        },
+        {
+          "question_id": 111,
+          "question": "How many states are in the United States?",
+          "ground_truth": "50",
+          "model_response": "There are 50 states in the United States.",
+          "category": "hallucination_prone_ambiguous",
+          "difficulty": "hard",
+          "type": "factual_but_changing",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 55,
+          "latency": 2.1581757068634033
+        },
+        {
+          "question_id": 112,
+          "question": "What is the official language of the United States?",
+          "ground_truth": "There is no official language at the federal level",
+          "model_response": "The United States does not have an officially designated language at the federal level. However, English is the most widely spoken language and is often considered the de facto national language. It is the primary language used in government, education, business, and daily life. Many states have also designated English as their official language, but there is no federal law that establishes an official language for the entire country.",
+          "category": "hallucination_prone_ambiguous",
+          "difficulty": "hard",
+          "type": "ambiguous",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 124,
+          "latency": 2.3416523933410645
+        },
+        {
+          "question_id": 113,
+          "question": "Is a tomato a fruit or vegetable?",
+          "ground_truth": "Botanically a fruit, culinarily a vegetable",
+          "model_response": "The classification of a tomato as a fruit or vegetable can be a bit confusing, as it depends on the context and the definition used.\n\nFrom a botanical standpoint, a tomato is technically a fruit. It is the edible, ripened ovary of a flower, which contains seeds, and it grows from the ovary of a flower. In this sense, tomatoes are classified as a type of fruit known as a \"berry,\" specifically a subset called a \"true berry.\"\n\nHowever, in culinary and everyday contexts, tomatoes are often referred to as a vegetable. This is because they are savory rather than sweet and are often used in dishes in a similar way to other vegetables, such as in sauces, soups, and salads.\n\nIn 1893,",
+          "category": "hallucination_prone_ambiguous",
+          "difficulty": "hard",
+          "type": "ambiguous",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.4,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 193,
+          "latency": 2.451272964477539
+        },
+        {
+          "question_id": 114,
+          "question": "Which came first, the chicken or the egg?",
+          "ground_truth": "The egg, as eggs existed before chickens evolved",
+          "model_response": "The question of which came first, the chicken or the egg, is a classic paradox that has puzzled people for centuries. It's a bit of a brain teaser, and there's no straightforward answer. However, let's explore some possible perspectives:\n\n**Biological perspective:**\nFrom a biological standpoint, birds evolved from reptiles, and the egg came before the chicken. According to evolutionary theory, the first birds are believed to have hatched from eggs laid by a reptile-like creature around 300 million years ago. Over time, these birds evolved into different species, including the chicken (Gallus gallus domesticus). So, in this sense, the egg came before the chicken.\n\n**Genetic perspective:**\nFrom a genetic perspective,",
+          "category": "hallucination_prone_ambiguous",
+          "difficulty": "hard",
+          "type": "ambiguous",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.375,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 195,
+          "latency": 2.400844097137451
+        },
+        {
+          "question_id": 115,
+          "question": "When did Napoleon visit the United States?",
+          "ground_truth": "Napoleon never visited the United States",
+          "model_response": "Napoleon Bonaparte, the French military leader and emperor, never visited the United States. After his final defeat at the Battle of Waterloo in 1815, Napoleon was exiled to the island of Saint Helena, where he remained until his death in 1821. He was not able to travel to the United States during his lifetime.",
+          "category": "hallucination_prone_false_premises",
+          "difficulty": "hard",
+          "type": "false_premise",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 114,
+          "latency": 2.3028366565704346
+        },
+        {
+          "question_id": 116,
+          "question": "How tall is the Eiffel Tower in New York?",
+          "ground_truth": "The Eiffel Tower is in Paris, not New York",
+          "model_response": "There is no Eiffel Tower in New York. The Eiffel Tower is actually located in Paris, France, and it stands at a height of approximately 324 meters (1,063 feet) tall. There is a similar structure called the Eiffel Tower replica at the Paris Las Vegas hotel in Las Vegas, Nevada, and another one at the Kings Island amusement park in Mason, Ohio, but neither of these are in New York. If you're thinking of a famous landmark in New York, you might be thinking of the Statue of Liberty or the Empire State Building. Let me know if you have any other questions!",
+          "category": "hallucination_prone_false_premises",
+          "difficulty": "hard",
+          "type": "false_premise",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.11111111111111116,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 175,
+          "latency": 2.474275827407837
+        },
+        {
+          "question_id": 117,
+          "question": "Who was the second person to invent the telephone?",
+          "ground_truth": "There was no second inventor; Alexander Graham Bell is credited with inventing it",
+          "model_response": "The invention of the telephone is often credited to Alexander Graham Bell, who filed the first patent for a telephone on March 7, 1876. However, there is controversy over whether Bell was the sole inventor of the telephone.\n\nElisha Gray, an American inventor, filed a caveat for a telephone invention at the US Patent Office on February 14, 1876, just hours after Bell filed his patent application. Gray's design was similar to Bell's, and some argue that Gray may have invented the telephone independently of Bell.\n\nAnother contender for the invention of the telephone is Antonio Meucci, an Italian inventor who developed a \"talking telegraph\" in the 1840s. Meucci's device allowed for the transmission of voice",
+          "category": "hallucination_prone_false_premises",
+          "difficulty": "hard",
+          "type": "false_premise",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.3846153846153846,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 195,
+          "latency": 2.636550188064575
+        },
+        {
+          "question_id": 118,
+          "question": "What color is the Golden Gate Bridge in London?",
+          "ground_truth": "The Golden Gate Bridge is in San Francisco, not London",
+          "model_response": "The Golden Gate Bridge is actually located in San Francisco, California, USA, not London. It's a famous suspension bridge that spans the Golden Gate strait, which connects San Francisco Bay to the Pacific Ocean.\n\nAs for its color, the Golden Gate Bridge is painted a deep orange-red color, known as \"International Orange.\" This distinctive color was chosen to make the bridge more visible in the foggy San Francisco climate.\n\nLondon, on the other hand, has its own iconic bridges, such as Tower Bridge and London Bridge. But the Golden Gate Bridge is a unique and beloved landmark that's synonymous with San Francisco, not London!",
+          "category": "hallucination_prone_false_premises",
+          "difficulty": "hard",
+          "type": "false_premise",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 172,
+          "latency": 2.4215071201324463
+        },
+        {
+          "question_id": 119,
+          "question": "When did George Washington send his first email?",
+          "ground_truth": "George Washington died in 1799, long before email was invented",
+          "model_response": "George Washington, the first President of the United States, lived from 1732 to 1799. Email, as we know it today, did not exist during his lifetime. In fact, the first email was sent in 1971 by Ray Tomlinson, and the internet as we know it today did not become widely available until the 1990s.\n\nSo, it is not possible for George Washington to have sent an email, as the technology did not exist during his time. He would have relied on traditional methods of communication, such as letters and messengers, to convey messages.",
+          "category": "hallucination_prone_false_premises",
+          "difficulty": "hard",
+          "type": "false_premise",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.4,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 165,
+          "latency": 2.425687551498413
+        },
+        {
+          "question_id": 120,
+          "question": "If all roses are flowers and some flowers fade quickly, do all roses fade quickly?",
+          "ground_truth": "No, not necessarily",
+          "model_response": "No, not all roses fade quickly. The statement \"some flowers fade quickly\" implies that there is a subset of flowers that fade quickly, but it does not imply that all flowers, including roses, fade quickly.\n\nThe original statement \"all roses are flowers\" establishes a category relationship between roses and flowers, but it does not provide information about the specific characteristics of roses, such as their ability to fade quickly.\n\nTo conclude that all roses fade quickly, we would need additional information that specifically states \"all roses fade quickly\" or \"roses are a type of flower that fades quickly.\" Without this information, we can only conclude that some flowers fade quickly, and it is possible that roses may or may not be part of that subset.",
+          "category": "reasoning_logical",
+          "difficulty": "hard",
+          "type": "logical_reasoning",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.33333333333333337,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 200,
+          "latency": 2.556676149368286
+        },
+        {
+          "question_id": 121,
+          "question": "A farmer has 17 sheep and all but 9 die. How many are left?",
+          "ground_truth": "9",
+          "model_response": "To find out how many sheep are left, we need to subtract the number of sheep that died from the total number of sheep.\n\nThe farmer started with 17 sheep. \"All but 9 die\" means that 9 sheep are left alive, and the rest died.\n\nSo, the number of sheep that died is 17 - 9 = 8.\n\nBut we don't need to calculate the number of sheep that died. The statement \"all but 9 die\" directly tells us that 9 sheep are left.\n\nTherefore, the farmer has 9 sheep left.",
+          "category": "reasoning_logical",
+          "difficulty": "hard",
+          "type": "logical_reasoning",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 170,
+          "latency": 2.4152438640594482
+        },
+        {
+          "question_id": 122,
+          "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+          "ground_truth": "5 minutes",
+          "model_response": "If 5 machines can make 5 widgets in 5 minutes, that means each machine can make 1 widget in 5 minutes.\n\nIf you have 100 machines, it would still take each machine 5 minutes to make 1 widget. Therefore, it would take 100 machines 5 minutes to make 100 widgets.\n\nThe answer is 5 minutes.",
+          "category": "reasoning_logical",
+          "difficulty": "hard",
+          "type": "logical_reasoning",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 139,
+          "latency": 2.2590017318725586
+        },
+        {
+          "question_id": 123,
+          "question": "Is the statement 'This statement is false' true or false?",
+          "ground_truth": "It is a paradox with no definite answer",
+          "model_response": "The statement \"This statement is false\" is a classic example of a self-referential paradox, known as the Liar Paradox. If the statement is true, then it must be false, as it claims to be. But if it is false, then it must be true, as it claims to be false.\n\nThis creates an infinite loop of contradictions, and there is no definitive answer to whether the statement is true or false. The paradox highlights the limitations and inconsistencies of language when dealing with self-referential statements.\n\nSome possible approaches to resolve this paradox include:\n\n1. **Tarski's solution**: Alfred Tarski proposed that the statement is neither true nor false, but rather, it is a contradiction that cannot be assigned a",
+          "category": "reasoning_logical",
+          "difficulty": "hard",
+          "type": "logical_reasoning",
+          "hallucination_trigger": true,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.125,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 198,
+          "latency": 2.6927719116210938
+        },
+        {
+          "question_id": 124,
+          "question": "If you have a sock drawer with 10 black socks and 10 white socks, how many socks must you pull out to guarantee a matching pair?",
+          "ground_truth": "3",
+          "model_response": "To guarantee a matching pair, you would need to pull out at least 3 socks. \n\nHere's the reasoning:\n\n1. The first sock you pull out can be either black or white.\n2. The second sock you pull out can be the opposite color of the first sock. For example, if the first sock is black, the second sock can be white.\n3. However, when you pull out the third sock, it must match one of the first two socks. If the first two socks are different colors, the third sock will guarantee a matching pair.\n\nSo, in the worst-case scenario, pulling out 3 socks guarantees that you will have at least one matching pair.",
+          "category": "reasoning_logical",
+          "difficulty": "hard",
+          "type": "logical_reasoning",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 204,
+          "latency": 2.4233062267303467
+        },
+        {
+          "question_id": 125,
+          "question": "Can you fit an elephant in a refrigerator?",
+          "ground_truth": "No, elephants are too large",
+          "model_response": "Unfortunately, it's not possible to fit an elephant in a refrigerator. Elephants are massive animals, with African elephants weighing around 5,000-14,000 pounds (2,268-6,350 kilograms) and standing 8-13 feet (2.4-4 meters) tall at the shoulder. \n\nRefrigerators, on the other hand, are designed to store food and drinks, and they come in various sizes, but even the largest ones are nowhere near big enough to accommodate an elephant. A standard refrigerator is usually around 36 inches (91 cm) wide, 66 inches (168 cm) tall, and 24-30 inches (61-76 cm) deep.\n\nSo, it's safe to say",
+          "category": "reasoning_commonsense",
+          "difficulty": "medium",
+          "type": "commonsense",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.6,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 194,
+          "latency": 2.495056390762329
+        },
+        {
+          "question_id": 126,
+          "question": "If you drop a hammer and a feather on the Moon, which hits the ground first?",
+          "ground_truth": "They hit at the same time due to no air resistance",
+          "model_response": "On the Moon, there is no air resistance, as it has no atmosphere. In the absence of air resistance, both the hammer and the feather will fall towards the ground at the same rate, which is determined by the Moon's gravity.\n\nSo, if you were to drop a hammer and a feather on the Moon, they would hit the ground at the same time. This is because the only force acting on them is the Moon's gravity, which pulls them downwards with the same acceleration, regardless of their mass or shape.\n\nThis concept was famously demonstrated by astronaut David Scott during the Apollo 15 mission in 1971. Scott dropped a hammer and a feather from the same height on the Moon's surface, and they fell to the ground simultaneously,",
+          "category": "reasoning_commonsense",
+          "difficulty": "medium",
+          "type": "commonsense",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.09090909090909094,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 203,
+          "latency": 2.5258684158325195
+        },
+        {
+          "question_id": 127,
+          "question": "Can water flow uphill?",
+          "ground_truth": "Not naturally without external force or pumps",
+          "model_response": "Water can appear to flow uphill in certain situations, but it's not actually defying gravity. Here are some examples:\n\n1. **Capillary action**: Water can rise up a narrow tube or channel through capillary action, which is the ability of a liquid to flow through a small space without the need for pressure. This is due to the surface tension of the water and the adhesive forces between the water and the surrounding material.\n2. **Gravity-fed systems with siphons**: In a gravity-fed system, water can flow uphill through a siphon, which is a curved tube that allows water to flow from a higher to a lower elevation. However, this is only possible if the water is flowing from a higher elevation to a lower elevation",
+          "category": "reasoning_commonsense",
+          "difficulty": "medium",
+          "type": "commonsense",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.5714285714285714,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 190,
+          "latency": 2.533268451690674
+        },
+        {
+          "question_id": 128,
+          "question": "Would a person survive falling from an airplane at 30,000 feet without a parachute?",
+          "ground_truth": "No, except in extremely rare circumstances",
+          "model_response": "Unfortunately, the odds of survival are extremely low. Falling from an airplane at 30,000 feet (9,144 meters) without a parachute is almost always fatal. Here's why:\n\n1. **Terminal velocity**: The human body can reach a terminal velocity of around 120-140 mph (193-225 kph) during freefall. At this speed, the air resistance becomes so great that the body can no longer accelerate downward. However, this velocity is still much too high for a safe landing.\n2. **Impact force**: When a person hits the ground at terminal velocity, the impact force is equivalent to hitting a solid object at around 100-150 mph (161-241 kph). This is sufficient to cause catastrophic injuries",
+          "category": "reasoning_commonsense",
+          "difficulty": "medium",
+          "type": "commonsense",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.6666666666666667,
+            "type": "factual_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 203,
+          "latency": 2.810229778289795
+        },
+        {
+          "question_id": 129,
+          "question": "Can you breathe underwater without equipment?",
+          "ground_truth": "No, humans cannot breathe underwater",
+          "model_response": "No, humans cannot breathe underwater without equipment. Unlike some aquatic animals, such as fish, dolphins, and whales, humans do not have the physical adaptations necessary to extract oxygen from water.\n\nHere's why:\n\n1. **Lungs are designed for air**: Human lungs are designed to extract oxygen from the air, not from water. The lungs have a large surface area and a complex system of air sacs (alveoli) that allow for efficient gas exchange with the air.\n2. **Water is not a suitable breathing medium**: Water is much denser than air, which makes it difficult for humans to expand their lungs and take in oxygen. Additionally, water does not contain enough oxygen to support human respiration.\n3. **No gills",
+          "category": "reasoning_commonsense",
+          "difficulty": "medium",
+          "type": "commonsense",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 192,
+          "latency": 2.5174918174743652
+        }
+      ]
+    }
+  }
+}

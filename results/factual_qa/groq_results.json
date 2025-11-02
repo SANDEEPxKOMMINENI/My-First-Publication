@@ -1,0 +1,506 @@
+{
+  "experiment": "factual_qa",
+  "model": "groq",
+  "num_questions": 15,
+  "results": [
+    {
+      "question_id": 0,
+      "question": "What is the capital of France?",
+      "ground_truth": "Paris",
+      "model_response": "The capital of France is Paris.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "geography",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 50,
+      "latency": 0.29802751541137695,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The capital of France is Paris.",
+          "ground_truth": "Paris",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [],
+          "truth_numbers": []
+        }
+      }
+    },
+    {
+      "question_id": 1,
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "ground_truth": "William Shakespeare",
+      "model_response": "\"Romeo and Juliet\" was written by the famous English playwright William Shakespeare. It is one of his most well-known and beloved tragedies, telling the story of two young lovers from feuding families in Verona, Italy. The play is believed to have been written around 1595-1596 and has since become a classic of world literature, widely performed and adapted in many forms.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "literature",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 124,
+      "latency": 0.27327585220336914,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "\"Romeo and Juliet\" was written by the famous English playwright William Shakespeare. It is one of his most well-known and beloved tragedies, telling the story of two young lovers from feuding families in Verona, Italy. The play is believed to have been written around 1595-1596 and has since become a classic of world literature, widely performed and adapted in many forms.",
+          "ground_truth": "William Shakespeare",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [
+            15951596.0
+          ],
+          "truth_numbers": []
+        }
+      }
+    },
+    {
+      "question_id": 2,
+      "question": "In what year did World War II end?",
+      "ground_truth": "1945",
+      "model_response": "World War II ended in 1945. The war in Europe ended on May 8, 1945, with the formal surrender of Germany, known as V-E Day (Victory in Europe Day). The war in the Pacific ended on September 2, 1945, with the formal surrender of Japan, following the atomic bombings of Hiroshima and Nagasaki and the Soviet invasion of Manchuria. The formal surrender ceremony took place on board the USS Missouri in Tokyo Bay, Japan.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "history",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 144,
+      "latency": 0.26828479766845703,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "World War II ended in 1945. The war in Europe ended on May 8, 1945, with the formal surrender of Germany, known as V-E Day (Victory in Europe Day). The war in the Pacific ended on September 2, 1945, with the formal surrender of Japan, following the atomic bombings of Hiroshima and Nagasaki and the Soviet invasion of Manchuria. The formal surrender ceremony took place on board the USS Missouri in Tokyo Bay, Japan.",
+          "ground_truth": "1945",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": false,
+          "claim_numbers": [
+            1945.0,
+            8.0,
+            1945.0,
+            2.0,
+            1945.0
+          ],
+          "truth_numbers": [
+            1945.0
+          ]
+        }
+      }
+    },
+    {
+      "question_id": 3,
+      "question": "What is the speed of light in vacuum?",
+      "ground_truth": "299,792,458 meters per second",
+      "model_response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This is a fundamental constant of the universe and is denoted by the symbol c. It is a key component in many areas of physics, including electromagnetism and relativity.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "science",
+      "difficulty": "medium",
+      "is_correct": true,
+      "tokens_used": 103,
+      "latency": 0.4388706684112549,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This is a fundamental constant of the universe and is denoted by the symbol c. It is a key component in many areas of physics, including electromagnetism and relativity.",
+          "ground_truth": "299,792,458 meters per second",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [
+            299792458.0
+          ],
+          "truth_numbers": [
+            299792458.0
+          ]
+        }
+      }
+    },
+    {
+      "question_id": 4,
+      "question": "Who was the first person to walk on the moon?",
+      "ground_truth": "Neil Armstrong",
+      "model_response": "The first person to walk on the moon was Neil Armstrong. He stepped out of the lunar module Eagle and onto the moon's surface on July 20, 1969, as part of the Apollo 11 mission. Armstrong famously declared, \"That's one small step for man, one giant leap for mankind,\" as he became the first person to set foot on the moon.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "history",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 123,
+      "latency": 0.2093808650970459,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The first person to walk on the moon was Neil Armstrong. He stepped out of the lunar module Eagle and onto the moon's surface on July 20, 1969, as part of the Apollo 11 mission. Armstrong famously declared, \"That's one small step for man, one giant leap for mankind,\" as he became the first person to set foot on the moon.",
+          "ground_truth": "Neil Armstrong",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [
+            20.0,
+            1969.0,
+            11.0
+          ],
+          "truth_numbers": []
+        }
+      }
+    },
+    {
+      "question_id": 5,
+      "question": "What is the chemical symbol for gold?",
+      "ground_truth": "Au",
+      "model_response": "The chemical symbol for gold is Au. It comes from the Latin word for gold, \"aurum.\"",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "science",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 65,
+      "latency": 0.1488816738128662,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The chemical symbol for gold is Au. It comes from the Latin word for gold, \"aurum.\"",
+          "ground_truth": "Au",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [],
+          "truth_numbers": []
+        }
+      }
+    },
+    {
+      "question_id": 6,
+      "question": "How many continents are there on Earth?",
+      "ground_truth": "7",
+      "model_response": "There are 7 continents on Earth:\n\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia\n5. Europe\n6. North America\n7. South America\n\nNote that some sources may group Europe and Asia together as Eurasia, or combine North and South America as the Americas, but the 7-continent model is the most widely accepted classification.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "geography",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 120,
+      "latency": 0.2349400520324707,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "There are 7 continents on Earth:\n\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia\n5. Europe\n6. North America\n7. South America\n\nNote that some sources may group Europe and Asia together as Eurasia, or combine North and South America as the Americas, but the 7-continent model is the most widely accepted classification.",
+          "ground_truth": "7",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": false,
+          "claim_numbers": [
+            7.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            7.0
+          ],
+          "truth_numbers": [
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "question_id": 7,
+      "question": "What is the largest planet in our solar system?",
+      "ground_truth": "Jupiter",
+      "model_response": "The largest planet in our solar system is Jupiter. It is a gas giant, meaning that it is primarily composed of hydrogen and helium gases, and it is more than 1,300 times the size of Earth. Jupiter is the fifth planet from the Sun and is known for its distinctive banded appearance, which is caused by strong winds in its atmosphere. It is also home to the Great Red Spot, a giant storm that has been raging for centuries. Jupiter's massive size and gravitational influence make it",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "science",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 145,
+      "latency": 0.3121354579925537,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The largest planet in our solar system is Jupiter. It is a gas giant, meaning that it is primarily composed of hydrogen and helium gases, and it is more than 1,300 times the size of Earth. Jupiter is the fifth planet from the Sun and is known for its distinctive banded appearance, which is caused by strong winds in its atmosphere. It is also home to the Great Red Spot, a giant storm that has been raging for centuries. Jupiter's massive size and gravitational influence make it",
+          "ground_truth": "Jupiter",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [
+            1300.0
+          ],
+          "truth_numbers": []
+        }
+      }
+    },
+    {
+      "question_id": 8,
+      "question": "Who painted the Mona Lisa?",
+      "ground_truth": "Leonardo da Vinci",
+      "model_response": "The Mona Lisa was painted by the Italian artist Leonardo da Vinci in the early 16th century, specifically between 1503 and 1506. It is one of his most famous works and is widely considered to be one of the greatest paintings of all time. The painting is a portrait of a woman who is thought to be Lisa Gherardini, the wife of a wealthy merchant named Francesco del Giocondo. The Mona Lisa is known for its enigmatic smile, intricate details, and",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "art",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 141,
+      "latency": 0.24944400787353516,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The Mona Lisa was painted by the Italian artist Leonardo da Vinci in the early 16th century, specifically between 1503 and 1506. It is one of his most famous works and is widely considered to be one of the greatest paintings of all time. The painting is a portrait of a woman who is thought to be Lisa Gherardini, the wife of a wealthy merchant named Francesco del Giocondo. The Mona Lisa is known for its enigmatic smile, intricate details, and",
+          "ground_truth": "Leonardo da Vinci",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [
+            16.0,
+            1503.0,
+            1506.0
+          ],
+          "truth_numbers": []
+        }
+      }
+    },
+    {
+      "question_id": 9,
+      "question": "What is the smallest prime number?",
+      "ground_truth": "2",
+      "model_response": "The smallest prime number is 2. It is the only even prime number and the smallest number that is divisible only by 1 and itself.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 72,
+      "latency": 0.14969372749328613,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The smallest prime number is 2. It is the only even prime number and the smallest number that is divisible only by 1 and itself.",
+          "ground_truth": "2",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": false,
+          "claim_numbers": [
+            2.0,
+            1.0
+          ],
+          "truth_numbers": [
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "question_id": 10,
+      "question": "In what year was the United Nations founded?",
+      "ground_truth": "1945",
+      "model_response": "The United Nations (UN) was founded in 1945. It was established on October 24, 1945, when 51 countries signed the United Nations Charter in San Francisco, California. The UN replaced the League of Nations and was created to promote peace, security, and cooperation among its member states.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "history",
+      "difficulty": "medium",
+      "is_correct": true,
+      "tokens_used": 108,
+      "latency": 0.21219539642333984,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The United Nations (UN) was founded in 1945. It was established on October 24, 1945, when 51 countries signed the United Nations Charter in San Francisco, California. The UN replaced the League of Nations and was created to promote peace, security, and cooperation among its member states.",
+          "ground_truth": "1945",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": false,
+          "claim_numbers": [
+            1945.0,
+            24.0,
+            1945.0,
+            51.0
+          ],
+          "truth_numbers": [
+            1945.0
+          ]
+        }
+      }
+    },
+    {
+      "question_id": 11,
+      "question": "What is the boiling point of water at sea level in Celsius?",
+      "ground_truth": "100",
+      "model_response": "The boiling point of water at sea level is 100\u00b0C.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "science",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 62,
+      "latency": 0.13047528266906738,
+      "detection": {
+        "is_hallucination": true,
+        "confidence": 1.0,
+        "hallucination_type": "fabrication",
+        "evidence": {
+          "claim": "The boiling point of water at sea level is 100\u00b0C.",
+          "ground_truth": "100",
+          "token_overlap": 0.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [
+            100.0
+          ],
+          "truth_numbers": [
+            100.0
+          ]
+        }
+      }
+    },
+    {
+      "question_id": 12,
+      "question": "Who developed the theory of relativity?",
+      "ground_truth": "Albert Einstein",
+      "model_response": "The theory of relativity was developed by Albert Einstein, a renowned German-born physicist. Einstein's theory of relativity consists of two main components: \n\n1. **Special Relativity (1905)**: This theory challenged the long-held notion of absolute time and space. Einstein introduced the concept of time dilation, length contraction, and the speed of light as a universal constant. He showed that time and space are relative, and their measurement depends on the observer's frame of reference.\n\n2. **General",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "science",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 143,
+      "latency": 0.3019692897796631,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The theory of relativity was developed by Albert Einstein, a renowned German-born physicist. Einstein's theory of relativity consists of two main components: \n\n1. **Special Relativity (1905)**: This theory challenged the long-held notion of absolute time and space. Einstein introduced the concept of time dilation, length contraction, and the speed of light as a universal constant. He showed that time and space are relative, and their measurement depends on the observer's frame of reference.\n\n2. **General",
+          "ground_truth": "Albert Einstein",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [
+            1.0,
+            1905.0,
+            2.0
+          ],
+          "truth_numbers": []
+        }
+      }
+    },
+    {
+      "question_id": 13,
+      "question": "What is the capital of Japan?",
+      "ground_truth": "Tokyo",
+      "model_response": "The capital of Japan is Tokyo.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "geography",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 50,
+      "latency": 0.10584306716918945,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "The capital of Japan is Tokyo.",
+          "ground_truth": "Tokyo",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [],
+          "truth_numbers": []
+        }
+      }
+    },
+    {
+      "question_id": 14,
+      "question": "How many legs does a spider have?",
+      "ground_truth": "8",
+      "model_response": "A spider has 8 legs.",
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "category": "biology",
+      "difficulty": "easy",
+      "is_correct": true,
+      "tokens_used": 51,
+      "latency": 0.12820100784301758,
+      "detection": {
+        "is_hallucination": false,
+        "confidence": 0.0,
+        "hallucination_type": null,
+        "evidence": {
+          "claim": "A spider has 8 legs.",
+          "ground_truth": "8",
+          "token_overlap": 1.0,
+          "exact_match": false,
+          "numerical_match": true,
+          "claim_numbers": [
+            8.0
+          ],
+          "truth_numbers": [
+            8.0
+          ]
+        }
+      }
+    }
+  ],
+  "summary": {
+    "accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "categories": {
+      "geography": {
+        "correct": 3,
+        "total": 3
+      },
+      "literature": {
+        "correct": 1,
+        "total": 1
+      },
+      "history": {
+        "correct": 3,
+        "total": 3
+      },
+      "science": {
+        "correct": 5,
+        "total": 5
+      },
+      "art": {
+        "correct": 1,
+        "total": 1
+      },
+      "mathematics": {
+        "correct": 1,
+        "total": 1
+      },
+      "biology": {
+        "correct": 1,
+        "total": 1
+      }
+    }
+  }
+}

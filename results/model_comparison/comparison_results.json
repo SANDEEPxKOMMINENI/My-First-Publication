@@ -1,0 +1,74 @@
+{
+  "models": [
+    "groq"
+  ],
+  "num_questions": 5,
+  "detailed_results": {
+    "groq": [
+      {
+        "question": "What is the capital of France?",
+        "ground_truth": "Paris",
+        "model_response": "The capital of France is Paris.",
+        "category": "geography",
+        "is_correct": true,
+        "is_hallucination": false,
+        "detection_confidence": 0.0,
+        "tokens_used": 50,
+        "latency": 0.3190741539001465
+      },
+      {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "ground_truth": "William Shakespeare",
+        "model_response": "\"Romeo and Juliet\" was written by the renowned English playwright and poet William Shakespeare. It is one of his most famous tragedies and is widely regarded as a classic tale of love and conflict. The exact date of its composition is not certain,",
+        "category": "literature",
+        "is_correct": true,
+        "is_hallucination": false,
+        "detection_confidence": 0.0,
+        "tokens_used": 94,
+        "latency": 0.22381019592285156
+      },
+      {
+        "question": "What is 15 \u00d7 7?",
+        "ground_truth": "105",
+        "model_response": "15 \u00d7 7 = 105.",
+        "category": "math",
+        "is_correct": true,
+        "is_hallucination": false,
+        "detection_confidence": 0.0,
+        "tokens_used": 52,
+        "latency": 0.11243438720703125
+      },
+      {
+        "question": "In what year did World War II end?",
+        "ground_truth": "1945",
+        "model_response": "World War II ended in 1945. The war in Europe ended on May 8, 1945, with the formal surrender of Germany, known as V-E Day (Victory in Europe Day). The war in the Pacific ended on September",
+        "category": "history",
+        "is_correct": true,
+        "is_hallucination": false,
+        "detection_confidence": 0.0,
+        "tokens_used": 94,
+        "latency": 0.18224096298217773
+      },
+      {
+        "question": "What is the chemical symbol for gold?",
+        "ground_truth": "Au",
+        "model_response": "The chemical symbol for gold is Au. It comes from the Latin word \"Aurum,\" which means gold.",
+        "category": "science",
+        "is_correct": true,
+        "is_hallucination": false,
+        "detection_confidence": 0.0,
+        "tokens_used": 66,
+        "latency": 0.14377331733703613
+      }
+    ]
+  },
+  "comparison_summary": [
+    {
+      "model": "groq",
+      "accuracy": 1.0,
+      "hallucination_rate": 0.0,
+      "avg_latency": 0.19626660346984864,
+      "num_samples": 5
+    }
+  ]
+}

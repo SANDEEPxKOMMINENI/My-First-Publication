@@ -1,0 +1,70 @@
+# Core Dependencies
+numpy>=1.19.0
+pandas>=1.1.0
+scipy>=1.5.0
+
+# LLM API Clients
+google-generativeai>=0.3.0
+groq>=0.4.0
+openai>=1.0.0
+anthropic>=0.8.0
+
+# HuggingFace
+transformers>=4.30.0
+huggingface-hub>=0.16.0
+datasets>=2.14.0
+
+# NLP Libraries
+nltk>=3.6.0
+spacy>=3.0.0
+sentence-transformers>=2.2.0
+rouge-score>=0.1.2
+sacrebleu>=2.3.0
+
+# Knowledge & Fact-Checking
+wikipedia>=1.4.0
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+sparqlwrapper>=2.0.0
+
+# RAG & Vector Search
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+langchain>=0.1.0
+llama-index>=0.9.0
+
+# Data Processing
+jsonlines>=3.1.0
+tqdm>=4.62.0
+pyyaml>=5.4.0
+python-dotenv>=0.19.0
+
+# Visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+plotly>=5.3.0
+wordcloud>=1.8.0
+
+# Evaluation Metrics
+scikit-learn>=0.24.0
+bert-score>=0.3.13
+
+# Utilities
+colorama>=0.4.4
+tabulate>=0.8.9
+python-dateutil>=2.8.0
+
+# Testing
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# Jupyter (for analysis notebooks)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+
+# Optional: Local Models (if you want to use Ollama)
+# ollama>=0.1.0
+
+# Paper Writing Helpers
+bibtexparser>=1.2.0

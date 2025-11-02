@@ -1,0 +1,62 @@
+# Experiment Configuration
+
+# General Settings
+random_seed: 42
+output_dir: "results"
+save_intermediate: true
+
+# LLM Settings
+default_temperature: 0.7
+default_max_tokens: 512
+default_top_p: 0.9
+
+# Experiment Parameters
+num_samples_per_test: 5  # For self-consistency
+batch_size: 10
+timeout_seconds: 30
+
+# Detection Thresholds
+consistency_threshold: 0.7
+confidence_threshold: 0.8
+
+# Dataset Paths
+datasets:
+  triviaqa: "data/benchmarks/triviaqa_sample.json"
+  hotpotqa: "data/benchmarks/hotpotqa_sample.json"
+  gsm8k: "data/benchmarks/gsm8k_sample.json"
+  freshqa: "data/benchmarks/freshqa_sample.json"
+  custom_factual: "data/benchmarks/custom_factual.json"
+
+# Models to Test
+models:
+  - gemini
+  - groq
+  - huggingface
+
+# Hallucination Types
+hallucination_types:
+  - factual_error
+  - fabrication
+  - temporal_error
+  - logical_inconsistency
+  - entity_error
+  - numerical_error
+  - context_deviation
+
+# Mitigation Strategies
+mitigation_strategies:
+  - baseline
+  - rag
+  - chain_of_thought
+  - self_verification
+  - low_temperature
+  - few_shot_grounded
+
+# Evaluation Metrics
+metrics:
+  - accuracy
+  - hallucination_rate
+  - confidence_calibration
+  - f1_score
+  - precision
+  - recall

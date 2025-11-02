@@ -1,0 +1,64 @@
+% Generated LaTeX tables for research paper
+% Insert these into your paper/main.tex file
+
+% Model Comparison Table
+\begin{table}[h]
+\centering
+\caption{Model Performance Comparison}
+\label{tab:model_comparison}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy (\%)} & \textbf{Halluc. Rate (\%)} & \textbf{Latency (s)} & \textbf{Tokens} \\
+\midrule
+GROQ            &  80.8 &  14.6 &  2.16 & 113.3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Category Performance Tables
+\begin{table}[h]
+\centering
+\caption{GROQ - Performance by Category}
+\label{tab:category_groq}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Category} & \textbf{Accuracy (\%)} & \textbf{Halluc. Rate (\%)} & \textbf{Sample Size} \\
+\midrule
+Arts Literature                & 100.0 &   0.0 &  10 \\
+Arts Visual                    & 100.0 &   0.0 &  10 \\
+Factual Geography              & 100.0 &   0.0 &  10 \\
+Factual History                &  90.0 &  10.0 &  10 \\
+Hallucination Prone Ambiguous  &  20.0 &  60.0 &   5 \\
+Hallucination Prone Counting   &  40.0 &  60.0 &   5 \\
+Hallucination Prone False Premises &   0.0 &  40.0 &   5 \\
+Hallucination Prone Recent     & 100.0 &   0.0 &   5 \\
+Mathematics Advanced           &  70.0 &  20.0 &  10 \\
+Mathematics Basic              & 100.0 &   0.0 &  10 \\
+Reasoning Commonsense          &  20.0 &  60.0 &   5 \\
+Reasoning Logical              &  60.0 &  20.0 &   5 \\
+Science Biology                & 100.0 &  10.0 &  10 \\
+Science Chemistry              & 100.0 &   0.0 &  10 \\
+Science Physics                &  70.0 &  30.0 &  10 \\
+Technology                     & 100.0 &   0.0 &  10 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Difficulty Level Tables
+\begin{table}[h]
+\centering
+\caption{GROQ - Performance by Difficulty Level}
+\label{tab:difficulty_groq}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Difficulty} & \textbf{Accuracy (\%)} & \textbf{Halluc. Rate (\%)} & \textbf{Sample Size} \\
+\midrule
+Easy            &  97.5 &   5.0 &  40 \\
+Medium          &  87.3 &  10.9 &  55 \\
+Hard            &  51.4 &  31.4 &  35 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+

@@ -1,0 +1,28 @@
+{
+  "gemini": {
+    "api_key": "YOUR_GEMINI_API_KEY_HERE",
+    "model": "gemini-1.5-flash",
+    "rate_limit_rpm": 15
+  },
+  "groq": {
+    "api_key": "YOUR_GROQ_API_KEY_HERE",
+    "model": "llama3-70b-8192",
+    "rate_limit_rpm": 30
+  },
+  "huggingface": {
+    "api_key": "YOUR_HUGGINGFACE_TOKEN_HERE",
+    "rate_limit_rpm": 10
+  },
+  "openai": {
+    "api_key": "YOUR_OPENAI_API_KEY_HERE",
+    "model": "gpt-3.5-turbo",
+    "rate_limit_rpm": 3,
+    "note": "Optional - only if you have credits"
+  },
+  "anthropic": {
+    "api_key": "YOUR_ANTHROPIC_API_KEY_HERE",
+    "model": "claude-3-haiku-20240307",
+    "rate_limit_rpm": 5,
+    "note": "Optional - only if you have credits"
+  }
+}

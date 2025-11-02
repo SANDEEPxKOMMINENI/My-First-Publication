@@ -1,0 +1,407 @@
+{
+  "timestamp": "20251102_180351",
+  "dataset": "data/comprehensive_qa_dataset.json",
+  "num_questions": 20,
+  "models": [
+    "groq"
+  ],
+  "temperature": 0.7,
+  "results_by_model": {
+    "groq": {
+      "summary": {
+        "model": "groq",
+        "total_questions": 20,
+        "answered": 20,
+        "errors": 0,
+        "correct": 19,
+        "accuracy": 0.95,
+        "hallucinations_detected": 1,
+        "hallucination_rate": 0.05,
+        "avg_latency": 1.6756455779075623,
+        "avg_tokens": 108.2
+      },
+      "detailed_results": [
+        {
+          "question_id": 0,
+          "question": "What is the capital of France?",
+          "ground_truth": "Paris",
+          "model_response": "The capital of France is Paris.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.2728538513183594
+        },
+        {
+          "question_id": 1,
+          "question": "What is the capital of Japan?",
+          "ground_truth": "Tokyo",
+          "model_response": "The capital of Japan is Tokyo.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.11260056495666504
+        },
+        {
+          "question_id": 2,
+          "question": "What is the capital of Germany?",
+          "ground_truth": "Berlin",
+          "model_response": "The capital of Germany is Berlin.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.10534453392028809
+        },
+        {
+          "question_id": 3,
+          "question": "What is the capital of Australia?",
+          "ground_truth": "Canberra",
+          "model_response": "The capital of Australia is Canberra.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.11272549629211426
+        },
+        {
+          "question_id": 4,
+          "question": "What is the capital of Canada?",
+          "ground_truth": "Ottawa",
+          "model_response": "The capital of Canada is Ottawa.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 50,
+          "latency": 0.10720252990722656
+        },
+        {
+          "question_id": 5,
+          "question": "Which ocean is the largest?",
+          "ground_truth": "Pacific Ocean",
+          "model_response": "The Pacific Ocean is the largest of the world's five oceans, covering an area of approximately 155.6 million square kilometers (60.1 million square miles) and accounting for about 46% of the Earth's total ocean area. It is also the deepest ocean, with a maximum depth of about 11,022 meters (36,198 feet) in the Mariana Trench.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 121,
+          "latency": 2.4454591274261475
+        },
+        {
+          "question_id": 6,
+          "question": "What is the longest river in the world?",
+          "ground_truth": "Nile River",
+          "model_response": "The longest river in the world is the Nile River, which is approximately 6,695 kilometers (4,160 miles) long. It flows through 11 countries in northeastern Africa, including Egypt, Sudan, and Ethiopia, before emptying into the Mediterranean Sea. The Nile is not only the longest river but also one of the most historically and culturally significant, supporting ancient civilizations and modern cities alike.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 125,
+          "latency": 3.254127025604248
+        },
+        {
+          "question_id": 7,
+          "question": "How many continents are there?",
+          "ground_truth": "7",
+          "model_response": "There are 7 continents:\n\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia\n5. Europe\n6. North America\n7. South America\n\nNote that some sources may group Europe and Asia together as a single continent, Eurasia, or combine North and South America as the Americas. However, the 7-continent model is the most widely accepted classification.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 121,
+          "latency": 0.23792028427124023
+        },
+        {
+          "question_id": 8,
+          "question": "What is the smallest country in the world?",
+          "ground_truth": "Vatican City",
+          "model_response": "The smallest country in the world is the Vatican City, with an area of approximately 0.44 km\u00b2 (0.17 sq mi). It is an independent city-state located within Rome, Italy, and is home to the Pope and the central government of the Catholic Church. The Vatican City has a population of around 800 people and is the smallest internationally recognized sovereign state in the world.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 124,
+          "latency": 3.4011054039001465
+        },
+        {
+          "question_id": 9,
+          "question": "Which is the tallest mountain in the world?",
+          "ground_truth": "Mount Everest",
+          "model_response": "The tallest mountain in the world is Mount Everest, located in the Himalayas on the border between Nepal and Tibet, China. It stands at a height of 8,848.86 meters (29,031.7 feet) above sea level.",
+          "category": "factual_geography",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 95,
+          "latency": 1.957979440689087
+        },
+        {
+          "question_id": 10,
+          "question": "In what year did World War II end?",
+          "ground_truth": "1945",
+          "model_response": "World War II ended in 1945. The war in Europe officially ended on May 8, 1945, with the formal surrender of Germany, known as V-E Day (Victory in Europe Day). The war in the Pacific ended on September 2, 1945, with the formal surrender of Japan, following the atomic bombings of Hiroshima and Nagasaki and the Soviet invasion of Manchuria. The formal surrender ceremony took place on board the USS Missouri in Tokyo Bay, Japan.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 146,
+          "latency": 0.2908318042755127
+        },
+        {
+          "question_id": 11,
+          "question": "Who was the first president of the United States?",
+          "ground_truth": "George Washington",
+          "model_response": "The first president of the United States was George Washington. He served as the first president from April 30, 1789, to March 4, 1797. Prior to his presidency, Washington was the commander-in-chief of the Continental Army during the American Revolutionary War and played a key role in the fight for American independence. He is widely regarded as one of the most important figures in American history and is often referred to as the \"Father of the Country.\"",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 140,
+          "latency": 2.3280820846557617
+        },
+        {
+          "question_id": 12,
+          "question": "In what year was the United Nations founded?",
+          "ground_truth": "1945",
+          "model_response": "The United Nations (UN) was founded in 1945. It was established on October 24, 1945, when 51 countries signed the United Nations Charter in San Francisco, California.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 85,
+          "latency": 2.2128241062164307
+        },
+        {
+          "question_id": 13,
+          "question": "When did the Berlin Wall fall?",
+          "ground_truth": "1989",
+          "model_response": "The Berlin Wall fell on November 9, 1989. It marked a significant event in modern history, symbolizing the end of the division of Germany and the beginning of a new era of German reunification. The fall of the wall was a result of growing protests and demands for reform in Eastern Europe, particularly in East Germany, and it paved the way for the eventual reunification of Germany on October 3, 1990.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 131,
+          "latency": 2.516342878341675
+        },
+        {
+          "question_id": 14,
+          "question": "In what year did World War I begin?",
+          "ground_truth": "1914",
+          "model_response": "World War I began in 1914. It started on July 28, 1914, when Austria-Hungary declared war on Serbia, and eventually involved many countries from different parts of the world. The war lasted until November 11, 1918.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 99,
+          "latency": 2.2612080574035645
+        },
+        {
+          "question_id": 15,
+          "question": "Who discovered America in 1492?",
+          "ground_truth": "Christopher Columbus",
+          "model_response": "It is widely believed that Christopher Columbus discovered America in 1492. However, it's essential to note that this is a subject of ongoing debate and discussion among historians.\n\nColumbus, an Italian explorer, sailed across the Atlantic Ocean and landed on the island of Guanahani in the Bahamas, which he named San Salvador. He believed he had reached the East Indies, but instead, he stumbled upon the Americas.\n\nHowever, it's crucial to acknowledge that indigenous peoples had inhabited the Americas for thousands of years before Columbus' arrival. Additionally, the Vikings, led by Leif Erikson, are believed to have established a settlement in present-day Canada around 1000 AD, nearly 500 years before Columbus' voyage.\n\nSo, while Columbus",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 193,
+          "latency": 2.468883752822876
+        },
+        {
+          "question_id": 16,
+          "question": "When did the French Revolution begin?",
+          "ground_truth": "1789",
+          "model_response": "The French Revolution began on May 5, 1789, with the meeting of the Estates-General, a representative assembly that had not met since 1614. However, the revolution is often said to have started on July 14, 1789, with the Storming of the Bastille, a symbolic event that marked the beginning of the end of the absolute monarchy and the rise of the modern nation-state.\n\nThe Estates-General was convened by King Louis XVI in an attempt to address the country's financial crisis and respond to the growing discontent among the population. However, the assembly was dominated by the Third Estate, which represented the common people, and it soon became clear that the representatives of the Third Estate were determined to push for radical reforms.\n\n",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 192,
+          "latency": 2.4252357482910156
+        },
+        {
+          "question_id": 17,
+          "question": "Who was the first man on the moon?",
+          "ground_truth": "Neil Armstrong",
+          "model_response": "The first man to walk on the moon was Neil Armstrong. He stepped out of the lunar module Eagle and onto the moon's surface on July 20, 1969, during the Apollo 11 mission. Armstrong famously declared, \"That's one small step for man, one giant leap for mankind,\" as he became the first person to set foot on the moon. He was followed by Edwin \"Buzz\" Aldrin, who also walked on the moon during the mission.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 140,
+          "latency": 2.47724986076355
+        },
+        {
+          "question_id": 18,
+          "question": "When did the Roman Empire fall?",
+          "ground_truth": "476 AD",
+          "model_response": "The Roman Empire fell in two stages. The Western Roman Empire fell on September 4, 476 CE, when the Germanic king Odoacer deposed the last Roman Emperor, Romulus Augustus. \n\nThe Eastern Roman Empire, also known as the Byzantine Empire, survived for another thousand years and fell on May 29, 1453 CE, when the Ottoman Empire conquered its capital, Constantinople. \n\nSo, the answer depends on whether you're referring to the Western or Eastern Roman Empire.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": false,
+          "detection": {
+            "is_hallucination": true,
+            "confidence": 0.5,
+            "type": "numerical_error",
+            "method": "factual_verification"
+          },
+          "tokens_used": 146,
+          "latency": 2.362037420272827
+        },
+        {
+          "question_id": 19,
+          "question": "In what year did India gain independence?",
+          "ground_truth": "1947",
+          "model_response": "India gained independence on August 15, 1947.",
+          "category": "factual_history",
+          "difficulty": "easy",
+          "type": "factual",
+          "hallucination_trigger": false,
+          "is_correct": true,
+          "detection": {
+            "is_hallucination": false,
+            "confidence": 0.0,
+            "type": null,
+            "method": "factual_verification"
+          },
+          "tokens_used": 56,
+          "latency": 2.1628975868225098
+        }
+      ]
+    }
+  }
+}

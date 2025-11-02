@@ -1,0 +1,228 @@
+[
+  {
+    "category": "factual_geography",
+    "difficulty": "easy",
+    "questions": [
+      {"question": "What is the capital of France?", "answer": "Paris", "type": "factual"},
+      {"question": "What is the capital of Japan?", "answer": "Tokyo", "type": "factual"},
+      {"question": "What is the capital of Germany?", "answer": "Berlin", "type": "factual"},
+      {"question": "What is the capital of Australia?", "answer": "Canberra", "type": "factual"},
+      {"question": "What is the capital of Canada?", "answer": "Ottawa", "type": "factual"},
+      {"question": "Which ocean is the largest?", "answer": "Pacific Ocean", "type": "factual"},
+      {"question": "What is the longest river in the world?", "answer": "Nile River", "type": "factual"},
+      {"question": "How many continents are there?", "answer": "7", "type": "factual"},
+      {"question": "What is the smallest country in the world?", "answer": "Vatican City", "type": "factual"},
+      {"question": "Which is the tallest mountain in the world?", "answer": "Mount Everest", "type": "factual"}
+    ]
+  },
+  {
+    "category": "factual_history",
+    "difficulty": "easy",
+    "questions": [
+      {"question": "In what year did World War II end?", "answer": "1945", "type": "factual"},
+      {"question": "Who was the first president of the United States?", "answer": "George Washington", "type": "factual"},
+      {"question": "In what year was the United Nations founded?", "answer": "1945", "type": "factual"},
+      {"question": "When did the Berlin Wall fall?", "answer": "1989", "type": "factual"},
+      {"question": "In what year did World War I begin?", "answer": "1914", "type": "factual"},
+      {"question": "Who discovered America in 1492?", "answer": "Christopher Columbus", "type": "factual"},
+      {"question": "When did the French Revolution begin?", "answer": "1789", "type": "factual"},
+      {"question": "Who was the first man on the moon?", "answer": "Neil Armstrong", "type": "factual"},
+      {"question": "When did the Roman Empire fall?", "answer": "476 AD", "type": "factual"},
+      {"question": "In what year did India gain independence?", "answer": "1947", "type": "factual"}
+    ]
+  },
+  {
+    "category": "science_physics",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "What is the speed of light in vacuum?", "answer": "299,792,458 meters per second", "type": "factual"},
+      {"question": "What is the boiling point of water at sea level in Celsius?", "answer": "100", "type": "factual"},
+      {"question": "What is Newton's first law of motion?", "answer": "An object in motion stays in motion unless acted upon by an external force", "type": "conceptual"},
+      {"question": "What is the chemical symbol for water?", "answer": "H2O", "type": "factual"},
+      {"question": "What is the speed of sound in air at room temperature?", "answer": "343 meters per second", "type": "factual"},
+      {"question": "What force keeps planets in orbit around the sun?", "answer": "Gravity", "type": "factual"},
+      {"question": "What is absolute zero in Celsius?", "answer": "-273.15", "type": "factual"},
+      {"question": "Who developed the theory of relativity?", "answer": "Albert Einstein", "type": "factual"},
+      {"question": "What is the charge of an electron?", "answer": "Negative", "type": "factual"},
+      {"question": "What is the formula for kinetic energy?", "answer": "KE = 1/2 mv^2", "type": "factual"}
+    ]
+  },
+  {
+    "category": "science_chemistry",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "What is the chemical symbol for gold?", "answer": "Au", "type": "factual"},
+      {"question": "What is the atomic number of carbon?", "answer": "6", "type": "factual"},
+      {"question": "What is the most abundant gas in Earth's atmosphere?", "answer": "Nitrogen", "type": "factual"},
+      {"question": "What is the pH of pure water?", "answer": "7", "type": "factual"},
+      {"question": "What is the chemical formula for table salt?", "answer": "NaCl", "type": "factual"},
+      {"question": "What is the chemical symbol for iron?", "answer": "Fe", "type": "factual"},
+      {"question": "How many elements are in the periodic table?", "answer": "118", "type": "factual"},
+      {"question": "What is the lightest element?", "answer": "Hydrogen", "type": "factual"},
+      {"question": "What is the chemical formula for carbon dioxide?", "answer": "CO2", "type": "factual"},
+      {"question": "What is the noble gas with atomic number 2?", "answer": "Helium", "type": "factual"}
+    ]
+  },
+  {
+    "category": "science_biology",
+    "difficulty": "easy",
+    "questions": [
+      {"question": "How many legs does a spider have?", "answer": "8", "type": "factual"},
+      {"question": "What is the largest organ in the human body?", "answer": "Skin", "type": "factual"},
+      {"question": "How many chromosomes do humans have?", "answer": "46", "type": "factual"},
+      {"question": "What is the powerhouse of the cell?", "answer": "Mitochondria", "type": "factual"},
+      {"question": "What is the process by which plants make food?", "answer": "Photosynthesis", "type": "factual"},
+      {"question": "What is DNA an abbreviation for?", "answer": "Deoxyribonucleic acid", "type": "factual"},
+      {"question": "How many bones are in the adult human body?", "answer": "206", "type": "factual"},
+      {"question": "What is the largest mammal on Earth?", "answer": "Blue whale", "type": "factual"},
+      {"question": "What type of blood cell carries oxygen?", "answer": "Red blood cells", "type": "factual"},
+      {"question": "What is the average human body temperature in Celsius?", "answer": "37", "type": "factual"}
+    ]
+  },
+  {
+    "category": "mathematics_basic",
+    "difficulty": "easy",
+    "questions": [
+      {"question": "What is 15 × 7?", "answer": "105", "type": "calculation"},
+      {"question": "What is the smallest prime number?", "answer": "2", "type": "factual"},
+      {"question": "What is 144 ÷ 12?", "answer": "12", "type": "calculation"},
+      {"question": "What is the square root of 64?", "answer": "8", "type": "calculation"},
+      {"question": "What is 25% of 200?", "answer": "50", "type": "calculation"},
+      {"question": "What is the value of pi to 2 decimal places?", "answer": "3.14", "type": "factual"},
+      {"question": "What is 8²?", "answer": "64", "type": "calculation"},
+      {"question": "What is the sum of angles in a triangle?", "answer": "180 degrees", "type": "factual"},
+      {"question": "What is 1000 - 234?", "answer": "766", "type": "calculation"},
+      {"question": "What is the next prime number after 7?", "answer": "11", "type": "factual"}
+    ]
+  },
+  {
+    "category": "mathematics_advanced",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "What is the derivative of x²?", "answer": "2x", "type": "calculation"},
+      {"question": "What is the integral of 1/x?", "answer": "ln(x) + C", "type": "calculation"},
+      {"question": "What is e to the power of 0?", "answer": "1", "type": "calculation"},
+      {"question": "What is the Pythagorean theorem?", "answer": "a² + b² = c²", "type": "factual"},
+      {"question": "What is the value of e to 2 decimal places?", "answer": "2.71", "type": "factual"},
+      {"question": "What is log₁₀(100)?", "answer": "2", "type": "calculation"},
+      {"question": "What is the slope of the line y = 3x + 5?", "answer": "3", "type": "calculation"},
+      {"question": "What is sin(90°)?", "answer": "1", "type": "calculation"},
+      {"question": "What is the factorial of 5?", "answer": "120", "type": "calculation"},
+      {"question": "What is the quadratic formula?", "answer": "x = (-b ± √(b² - 4ac)) / 2a", "type": "factual"}
+    ]
+  },
+  {
+    "category": "arts_literature",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "Who wrote 'Romeo and Juliet'?", "answer": "William Shakespeare", "type": "factual"},
+      {"question": "Who wrote '1984'?", "answer": "George Orwell", "type": "factual"},
+      {"question": "Who wrote 'Pride and Prejudice'?", "answer": "Jane Austen", "type": "factual"},
+      {"question": "Who wrote 'The Great Gatsby'?", "answer": "F. Scott Fitzgerald", "type": "factual"},
+      {"question": "Who wrote 'To Kill a Mockingbird'?", "answer": "Harper Lee", "type": "factual"},
+      {"question": "Who wrote 'Moby Dick'?", "answer": "Herman Melville", "type": "factual"},
+      {"question": "Who wrote 'The Odyssey'?", "answer": "Homer", "type": "factual"},
+      {"question": "Who wrote 'War and Peace'?", "answer": "Leo Tolstoy", "type": "factual"},
+      {"question": "Who wrote 'The Catcher in the Rye'?", "answer": "J.D. Salinger", "type": "factual"},
+      {"question": "Who wrote 'Harry Potter'?", "answer": "J.K. Rowling", "type": "factual"}
+    ]
+  },
+  {
+    "category": "arts_visual",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci", "type": "factual"},
+      {"question": "Who painted 'The Starry Night'?", "answer": "Vincent van Gogh", "type": "factual"},
+      {"question": "Who painted the Sistine Chapel ceiling?", "answer": "Michelangelo", "type": "factual"},
+      {"question": "Who painted 'The Persistence of Memory' with melting clocks?", "answer": "Salvador Dalí", "type": "factual"},
+      {"question": "Who painted 'Guernica'?", "answer": "Pablo Picasso", "type": "factual"},
+      {"question": "Who painted 'The Scream'?", "answer": "Edvard Munch", "type": "factual"},
+      {"question": "Who painted 'Girl with a Pearl Earring'?", "answer": "Johannes Vermeer", "type": "factual"},
+      {"question": "Who sculpted 'David'?", "answer": "Michelangelo", "type": "factual"},
+      {"question": "Who painted 'The Last Supper'?", "answer": "Leonardo da Vinci", "type": "factual"},
+      {"question": "Who painted 'Water Lilies' series?", "answer": "Claude Monet", "type": "factual"}
+    ]
+  },
+  {
+    "category": "technology",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "Who founded Apple Inc.?", "answer": "Steve Jobs", "type": "factual"},
+      {"question": "What does CPU stand for?", "answer": "Central Processing Unit", "type": "factual"},
+      {"question": "What does HTTP stand for?", "answer": "HyperText Transfer Protocol", "type": "factual"},
+      {"question": "Who invented the World Wide Web?", "answer": "Tim Berners-Lee", "type": "factual"},
+      {"question": "What does AI stand for?", "answer": "Artificial Intelligence", "type": "factual"},
+      {"question": "What does USB stand for?", "answer": "Universal Serial Bus", "type": "factual"},
+      {"question": "Who founded Microsoft?", "answer": "Bill Gates", "type": "factual"},
+      {"question": "What does RAM stand for?", "answer": "Random Access Memory", "type": "factual"},
+      {"question": "In what year was the first iPhone released?", "answer": "2007", "type": "factual"},
+      {"question": "What does HTML stand for?", "answer": "HyperText Markup Language", "type": "factual"}
+    ]
+  },
+  {
+    "category": "hallucination_prone_counting",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "How many R's are in the word 'strawberry'?", "answer": "3", "type": "counting", "hallucination_trigger": true},
+      {"question": "How many letters are in the word 'Mississippi'?", "answer": "11", "type": "counting", "hallucination_trigger": true},
+      {"question": "How many E's are in the word 'Tennessee'?", "answer": "3", "type": "counting", "hallucination_trigger": true},
+      {"question": "How many vowels are in 'beautiful'?", "answer": "5", "type": "counting", "hallucination_trigger": true},
+      {"question": "How many S's are in 'assessment'?", "answer": "4", "type": "counting", "hallucination_trigger": true}
+    ]
+  },
+  {
+    "category": "hallucination_prone_recent",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "Who won the FIFA World Cup in 2022?", "answer": "Argentina", "type": "recent_event", "hallucination_trigger": true},
+      {"question": "Who is the current President of the United States as of 2024?", "answer": "Joe Biden", "type": "recent_event", "hallucination_trigger": true},
+      {"question": "What year did COVID-19 pandemic begin?", "answer": "2019", "type": "recent_event"},
+      {"question": "When was ChatGPT first released?", "answer": "November 2022", "type": "recent_event", "hallucination_trigger": true},
+      {"question": "Who won the 2023 Nobel Prize in Physics?", "answer": "Pierre Agostini, Ferenc Krausz, and Anne L'Huillier", "type": "recent_event", "hallucination_trigger": true}
+    ]
+  },
+  {
+    "category": "hallucination_prone_ambiguous",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "Is Pluto a planet?", "answer": "No, it is classified as a dwarf planet", "type": "ambiguous", "hallucination_trigger": true},
+      {"question": "How many states are in the United States?", "answer": "50", "type": "factual_but_changing"},
+      {"question": "What is the official language of the United States?", "answer": "There is no official language at the federal level", "type": "ambiguous", "hallucination_trigger": true},
+      {"question": "Is a tomato a fruit or vegetable?", "answer": "Botanically a fruit, culinarily a vegetable", "type": "ambiguous", "hallucination_trigger": true},
+      {"question": "Which came first, the chicken or the egg?", "answer": "The egg, as eggs existed before chickens evolved", "type": "ambiguous", "hallucination_trigger": true}
+    ]
+  },
+  {
+    "category": "hallucination_prone_false_premises",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "When did Napoleon visit the United States?", "answer": "Napoleon never visited the United States", "type": "false_premise", "hallucination_trigger": true},
+      {"question": "How tall is the Eiffel Tower in New York?", "answer": "The Eiffel Tower is in Paris, not New York", "type": "false_premise", "hallucination_trigger": true},
+      {"question": "Who was the second person to invent the telephone?", "answer": "There was no second inventor; Alexander Graham Bell is credited with inventing it", "type": "false_premise", "hallucination_trigger": true},
+      {"question": "What color is the Golden Gate Bridge in London?", "answer": "The Golden Gate Bridge is in San Francisco, not London", "type": "false_premise", "hallucination_trigger": true},
+      {"question": "When did George Washington send his first email?", "answer": "George Washington died in 1799, long before email was invented", "type": "false_premise", "hallucination_trigger": true}
+    ]
+  },
+  {
+    "category": "reasoning_logical",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "If all roses are flowers and some flowers fade quickly, do all roses fade quickly?", "answer": "No, not necessarily", "type": "logical_reasoning"},
+      {"question": "A farmer has 17 sheep and all but 9 die. How many are left?", "answer": "9", "type": "logical_reasoning"},
+      {"question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?", "answer": "5 minutes", "type": "logical_reasoning"},
+      {"question": "Is the statement 'This statement is false' true or false?", "answer": "It is a paradox with no definite answer", "type": "logical_reasoning", "hallucination_trigger": true},
+      {"question": "If you have a sock drawer with 10 black socks and 10 white socks, how many socks must you pull out to guarantee a matching pair?", "answer": "3", "type": "logical_reasoning"}
+    ]
+  },
+  {
+    "category": "reasoning_commonsense",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "Can you fit an elephant in a refrigerator?", "answer": "No, elephants are too large", "type": "commonsense"},
+      {"question": "If you drop a hammer and a feather on the Moon, which hits the ground first?", "answer": "They hit at the same time due to no air resistance", "type": "commonsense"},
+      {"question": "Can water flow uphill?", "answer": "Not naturally without external force or pumps", "type": "commonsense"},
+      {"question": "Would a person survive falling from an airplane at 30,000 feet without a parachute?", "answer": "No, except in extremely rare circumstances", "type": "commonsense"},
+      {"question": "Can you breathe underwater without equipment?", "answer": "No, humans cannot breathe underwater", "type": "commonsense"}
+    ]
+  }
+]
